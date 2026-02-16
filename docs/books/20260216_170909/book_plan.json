@@ -1,0 +1,138 @@
+{
+  "title": "朝がつらい日のために",
+  "target_age": "5-8",
+  "page_count": 8,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "characters": [
+    {
+      "name": "りこ",
+      "description": "小学校高学年の女の子。やわらかな茶色の髪で、やさしい表情だが、悩みを抱えている。"
+    },
+    {
+      "name": "相談のお姉さん",
+      "description": "やさしい声で話を聞く大人の女性。明るく安心感のある笑顔で、落ち着いた服装。"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "text": "りこは、学校に行くのがつらいと感じていました。",
+      "scene_summary": "りこが自分の部屋で少し不安そうに座っているところ。",
+      "must_have": [
+        "りこ",
+        "自分の部屋",
+        "机",
+        "窓の外の朝の光"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "a worried young girl sitting in her cozy room with soft morning light outside the window, warm pastel colors, gentle watercolor style",
+      "image_prompt_sd": "young girl sitting in a warm cozy room, soft morning light through window, gentle pastel colors, watercolor illustration, clean lines, children's book style",
+      "negative_prompt_sd": "dark colors, harsh lines, scary, realistic, crowded"
+    },
+    {
+      "page": 2,
+      "text": "「学校の休み時間がつらい」と、りこは話しました。",
+      "scene_summary": "りこが電話で相談のお姉さんに話しているシーン、少し緊張しながらも話すところ。",
+      "must_have": [
+        "りこ",
+        "電話",
+        "相談のお姉さんのイメージ（画面または心象）",
+        "やわらかい表情"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "a young girl talking softly on the phone with a caring woman listening, soft pastel colors, watercolor style, warm and gentle atmosphere",
+      "image_prompt_sd": "child girl softly speaking on phone, caring woman listening, pastel colors, watercolor children illustration, clean outlines, warm light",
+      "negative_prompt_sd": "dark, scary expressions, harsh shadows, realistic photo, chaotic background"
+    },
+    {
+      "page": 3,
+      "text": "朝はお腹が痛くなって、学校に行くのがだんだん難しくなりました。",
+      "scene_summary": "朝の光の中、りこがお腹を押さえている場面。",
+      "must_have": [
+        "りこ",
+        "朝の日差し",
+        "お腹を押さえる姿",
+        "少し心配そうな顔"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "a young girl in soft morning light holding her stomach with a worried face, gentle pastel, watercolor style, children's book illustration",
+      "image_prompt_sd": "child girl in morning light holding stomach worried, soft pastel colors, watercolor style, clean lines, warm feeling",
+      "negative_prompt_sd": "dark, violent, scary, photo realism, sharp details"
+    },
+    {
+      "page": 4,
+      "text": "休み時間は友だちと話すのがむずかしくて、りこはさみしく感じました。",
+      "scene_summary": "学校の休み時間、周りの友だちは楽しそうに話しているが、りこは少し離れている。",
+      "must_have": [
+        "りこ",
+        "友だちのグループ",
+        "学校の休み時間の風景",
+        "寂しそうな表情"
+      ],
+      "camera": "wide shot",
+      "image_prompt_api": "young girl standing slightly apart from groups of children happily talking in a school yard during break time, soft pastel watercolor style",
+      "image_prompt_sd": "child girl isolated near groups of children chatting happily in schoolyard, pastel colors, watercolor children book illustration, clean lines",
+      "negative_prompt_sd": "dark, aggressive, sad crying, harsh light, realistic photo"
+    },
+    {
+      "page": 5,
+      "text": "無理して笑っていると、とっても疲れてしまいます。",
+      "scene_summary": "りこが無理に笑って友だちと接しているシーン。でも目は疲れている。",
+      "must_have": [
+        "りこ",
+        "無理な笑顔",
+        "友だち",
+        "疲れた目"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "a young girl forcing a smile among friends but her eyes show tiredness, gentle watercolor pastel style, children's book illustration",
+      "image_prompt_sd": "child girl forcing smile, tired eyes, friends around, soft pastel colors, watercolor, clean lines, warm children's book art",
+      "negative_prompt_sd": "dark, harsh shadows, crying, realistic, frightening"
+    },
+    {
+      "page": 6,
+      "text": "お姉さんは、少しずつできることを考えようと言いました。",
+      "scene_summary": "電話越しに優しく励ます相談のお姉さんの姿。",
+      "must_have": [
+        "相談のお姉さん",
+        "電話の様子",
+        "やさしい表情",
+        "温かい背景"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "a kind woman gently encouraging on the phone, warm colors, soft watercolor pastel style, peaceful children's book illustration",
+      "image_prompt_sd": "kind woman on phone gently encouraging, warm background pastel colors, watercolor, clean lines, children's book art",
+      "negative_prompt_sd": "dark, angry expressions, harsh light, realistic photo, busy background"
+    },
+    {
+      "page": 7,
+      "text": "「朝がつらいときは、保健室から入ってみてね」と言われました。",
+      "scene_summary": "りこが学校の保健室の入り口に立っているシーン。少し勇気を出した表情。",
+      "must_have": [
+        "りこ",
+        "保健室の入り口",
+        "少し勇気のある表情",
+        "やわらかな光"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "young girl standing at the entrance of school nurse's office, looking hopeful with soft pastel and watercolor style, children's book illustration",
+      "image_prompt_sd": "child girl at nurse's office door, hopeful expression, soft pastel watercolor, clean lines, warm children's book art",
+      "negative_prompt_sd": "dark, scary, crying, realistic photo, harsh shadows"
+    },
+    {
+      "page": 8,
+      "text": "りこは、少しずつ自分を大切にする方法を見つけました。",
+      "scene_summary": "りこがぬくもりある部屋で温かい飲み物を飲みながらほっとしている場面。",
+      "must_have": [
+        "りこ",
+        "温かい飲み物",
+        "やさしい部屋の光",
+        "安心した表情"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "a young girl sipping a warm drink in a cozy room, calm and peaceful expression, soft pastel watercolor style, children's book illustration",
+      "image_prompt_sd": "child girl drinking warm beverage cozy room, calm peaceful face, pastel watercolor, clean lines, warm children's book art",
+      "negative_prompt_sd": "dark, stressful, realistic photo, harsh lighting, aggressive elements"
+    }
+  ]
+}
