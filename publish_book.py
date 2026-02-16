@@ -2,11 +2,17 @@ import json
 import shutil
 from datetime import datetime
 from pathlib import Path
+
 print("publish_book.py started")
+
+# Sources
 SRC_PLAN = Path("work/book_plan.json")
 SRC_PDF = Path("output/book.pdf")
 SRC_PAGES_DIR = Path("output/pages")
+SRC_PROMPT = Path("work/prompt.txt")
+SRC_TRANSCRIPT = Path("work/transcript.txt")
 
+# Destinations
 DOCS_DIR = Path("docs")
 BOOKS_DIR = DOCS_DIR / "books"
 
@@ -44,6 +50,7 @@ VIEWER_HTML_TEMPLATE = """<!doctype html>
       <div class="meta"><span id="pageInfo">-/-</span></div>
       <button id="next">Next →</button>
       <a id="pdfLink" href="book.pdf" target="_blank" rel="noreferrer">PDFを開く</a>
+      <a href="details.html">詳細</a>
       <a href="../../index.html">本棚へ戻る</a>
     </div>
   </header>
@@ -114,7 +121,81 @@ VIEWER_HTML_TEMPLATE = """<!doctype html>
 </html>
 """
 
+DETAILS_HTML_TEMPLATE = """<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Book Details</title>
+  <style>
+    body{{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;background:#f6f6f6}}
+    header{{padding:16px 20px;background:#fff;border-bottom:1px solid #eee;display:flex;gap:12px;align-items:center;flex-wrap:wrap}}
+    h1{{font-size:16px;margin:0}}
+    a{{color:#0b57d0;text-decoration:none}}
+    .wrap{{max-width:1100px;margin:18px auto;padding:0 16px}}
+    .grid{{display:grid;grid-template-columns:1fr 1fr;gap:14px}}
+    .card{{background:#fff;border:1px solid #eee;border-radius:16px;padding:14px;box-shadow:0 1px 6px rgba(0,0,0,.04)}}
+    pre{{white-space:pre-wrap;word-break:break-word;margin:0;font-size:12px;line-height:1.6}}
+    .meta{{color:#666;font-size:13px;margin-top:6px}}
+    @media (max-width:900px){{.grid{{grid-template-columns:1fr}}}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="title">Book Details</h1>
+    <a href="viewer.html">Webで読む</a>
+    <a href="book.pdf" target="_blank" rel="noreferrer">PDF</a>
+    <a href="../../index.html">本棚へ戻る</a>
+  </header>
+
+  <div class="wrap">
+    <div class="card">
+      <div class="meta" id="summary"></div>
+    </div>
+
+    <div class="grid">
+      <section class="card">
+        <h2 style="font-size:14px;margin:0 0 10px;">Prompt（prompt.txt）</h2>
+        <pre id="prompt">(missing)</pre>
+      </section>
+      <section class="card">
+        <h2 style="font-size:14px;margin:0 0 10px;">Transcript（transcript.txt）</h2>
+        <pre id="transcript">(missing)</pre>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    async function safeFetchText(path){{
+      const res = await fetch(path, {{ cache: "no-store" }});
+      if(!res.ok) return "";
+      return await res.text();
+    }}
+
+    async function init(){{
+      const planRes = await fetch("book_plan.json", {{ cache: "no-store" }});
+      if(!planRes.ok) throw new Error("book_plan.json が読めません");
+      const plan = await planRes.json();
+
+      document.getElementById("title").textContent = plan.title || "Book Details";
+      document.getElementById("summary").textContent =
+        `target_age: ${{plan.target_age || "-"}} / pages: ${{plan.page_count || (plan.pages ? plan.pages.length : "-")}}`;
+
+      const prompt = await safeFetchText("prompt.txt");
+      const transcript = await safeFetchText("transcript.txt");
+
+      document.getElementById("prompt").textContent = prompt || "(prompt.txt がありません)";
+      document.getElementById("transcript").textContent = transcript || "(transcript.txt がありません)";
+    }}
+    init().catch(err => {{ document.body.innerHTML = `<pre style="padding:20px">Error: ${{err.message}}</pre>`; }});
+  </script>
+</body>
+</html>
+"""
+
 def main():
+    BOOKS_DIR.mkdir(parents=True, exist_ok=True)
+
     # 入力チェック
     if not SRC_PLAN.exists():
         raise FileNotFoundError("work/book_plan.json が見つかりません")
@@ -124,7 +205,7 @@ def main():
         raise FileNotFoundError("output/pages が見つかりません")
 
     plan = json.loads(SRC_PLAN.read_text(encoding="utf-8"))
-    title = plan.get("title", "StoryBook").strip() or "StoryBook"
+    title = (plan.get("title", "StoryBook") or "StoryBook").strip()
 
     book_id = timestamp_id()
     dst_dir = BOOKS_DIR / book_id
@@ -139,10 +220,22 @@ def main():
     for img in sorted(SRC_PAGES_DIR.glob("*.png")):
         shutil.copy2(img, dst_pages / img.name)
 
-    # viewer.html 生成（この本フォルダ内で相対参照する）
+    # prompt / transcript も一緒に保存（存在する場合）
+    if SRC_PROMPT.exists():
+        shutil.copy2(SRC_PROMPT, dst_dir / "prompt.txt")
+    if SRC_TRANSCRIPT.exists():
+        shutil.copy2(SRC_TRANSCRIPT, dst_dir / "transcript.txt")
+
+    # viewer.html
     (dst_dir / "viewer.html").write_text(
         VIEWER_HTML_TEMPLATE.format(title=title),
-        encoding="utf-8"
+        encoding="utf-8",
+    )
+
+    # details.html
+    (dst_dir / "details.html").write_text(
+        DETAILS_HTML_TEMPLATE,
+        encoding="utf-8",
     )
 
     print("✅ Published book:")

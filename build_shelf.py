@@ -16,47 +16,72 @@ def main():
     BOOKS_DIR.mkdir(parents=True, exist_ok=True)
 
     books = []
-    # ✅ 確実に拾う：各本の book_plan.json を直接探す
+    # 各本の book_plan.json を直接探す（確実に拾える）
     for plan_path in BOOKS_DIR.glob("*/book_plan.json"):
         book_dir = plan_path.parent
         viewer_path = book_dir / "viewer.html"
+        details_path = book_dir / "details.html"
         cover_path = book_dir / "pages" / "01.png"
+        pdf_path = book_dir / "book.pdf"
 
+        # viewer が無い本は棚に出さない（生成途中の可能性）
         if not viewer_path.exists():
             continue
 
         plan = json.loads(plan_path.read_text(encoding="utf-8"))
         title = plan.get("title", book_dir.name)
-
-        dt = parse_dt(book_dir.name)
-        label = dt.strftime("%Y-%m-%d %H:%M:%S") if dt else book_dir.name
+        target_age = plan.get("target_age", "") or "-"
 
         books.append({
             "id": book_dir.name,
             "title": title,
-            "label": label,
+            "target_age": target_age,
             "viewer": f"books/{book_dir.name}/viewer.html",
+            "details": f"books/{book_dir.name}/details.html",
             "pdf": f"books/{book_dir.name}/book.pdf",
             "cover": f"books/{book_dir.name}/pages/01.png" if cover_path.exists() else "",
+            "has_details": details_path.exists(),
+            "has_pdf": pdf_path.exists(),
         })
 
+    # 新しい本ほど上
     books.sort(key=lambda b: parse_dt(b["id"]) or datetime.min, reverse=True)
 
     cards = []
     for b in books:
-        cover_html = f'<img src="{b["cover"]}" alt="cover" />' if b["cover"] else '<div class="noimg">No cover</div>'
+        cover_html = (
+            f'<img src="{b["cover"]}" alt="cover" />'
+            if b["cover"]
+            else '<div class="noimg">No cover</div>'
+        )
+
+        details_btn = (
+            f'<a class="btn" href="{b["details"]}">詳細</a>'
+            if b["has_details"]
+            else '<span class="btn disabled" title="details.html がまだありません">詳細</span>'
+        )
+
+        pdf_btn = (
+            f'<a class="btn" href="{b["pdf"]}" target="_blank" rel="noreferrer">PDF</a>'
+            if b["has_pdf"]
+            else '<span class="btn disabled" title="book.pdf がまだありません">PDF</span>'
+        )
+
         cards.append(f"""
         <article class="card">
           <a class="cover" href="{b["viewer"]}">
             {cover_html}
           </a>
+
           <div class="meta">
             <div class="title">{b["title"]}</div>
-            <div class="sub">{b["label"]}</div>
+            <div class="sub">target_age: {b["target_age"]}</div>
           </div>
+
           <div class="actions">
             <a class="btn" href="{b["viewer"]}">Webで読む</a>
-            <a class="btn" href="{b["pdf"]}" target="_blank" rel="noreferrer">PDF</a>
+            {details_btn}
+            {pdf_btn}
           </div>
         </article>
         """.strip())
@@ -79,8 +104,9 @@ def main():
     .meta{{padding:12px 12px 0}}
     .title{{font-weight:700}}
     .sub{{color:#666;font-size:12px;margin-top:4px}}
-    .actions{{display:flex;gap:8px;padding:12px}}
-    .btn{{display:inline-block;padding:10px 12px;border:1px solid #ddd;border-radius:12px;background:#fff;text-decoration:none;color:#0b57d0;text-align:center;flex:1}}
+    .actions{{display:flex;gap:8px;padding:12px;flex-wrap:wrap}}
+    .btn{{display:inline-block;padding:10px 12px;border:1px solid #ddd;border-radius:12px;background:#fff;text-decoration:none;color:#0b57d0;text-align:center;flex:1;min-width:90px}}
+    .btn.disabled{{color:#aaa;border-color:#eee;background:#fafafa;cursor:not-allowed}}
     .hint{{color:#666;font-size:13px;margin:10px 0 0}}
   </style>
 </head>

@@ -2,6 +2,8 @@ import base64
 import json
 import os
 from pathlib import Path
+import argparse
+
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -11,6 +13,9 @@ load_dotenv()
 PLAN_PATH = Path("work/book_plan.json")
 OUT_DIR = Path("output/pages")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+parser = argparse.ArgumentParser()
+parser.add_argument("--force", action="store_true", help="既存pngがあっても上書きする")
+args = parser.parse_args()
 
 # 画像サイズは縦長が絵本向き（必要なら変えてOK）
 IMAGE_SIZE = "1024x1024"  # 他: "1024x1024", "1536x1024" など
@@ -45,10 +50,12 @@ def main():
         page_num = int(p["page"])
         out_path = _to_filename(page_num)
 
-        # 既に生成済みならスキップ（再実行に強い）
-        if out_path.exists():
+        if out_path.exists() and not args.force:
             print(f"skip page {page_num:02d} (already exists)")
             continue
+        if out_path.exists() and args.force:
+            print(f"overwrite page {page_num:02d}")
+
 
         prompt = p.get("image_prompt_api", "").strip()
         if not prompt:
