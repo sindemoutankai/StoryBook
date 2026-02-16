@@ -1,0 +1,163 @@
+{
+  "title": "心のなかのきらめき",
+  "target_age": "12-15",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "characters": [
+    {
+      "name": "リオ",
+      "description": "中学生の子ども。少し内気で繊細、でも心の中には優しい光を宿している。青い髪でパステルカラーの服を着ている。"
+    },
+    {
+      "name": "小さな光の精",
+      "description": "リオの心の中に現れる優しい光の妖精。やわらかいパステルの輝きをまとい、リオの気持ちを励ましながら成長を助ける。"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "text": "リオは毎朝、学校に行くのがとてもつらくて、お腹が痛くなってしまいました。休み時間、友だちと話すのも苦手で、ひとりでいることが多かったのです。その日はまた、心が重くなっていました。",
+      "scene_summary": "リオが自分の部屋の窓辺で朝の光を浴びながら、少しうつむいている。背景に学校が遠くに見える。",
+      "must_have": [
+        "リオの部屋",
+        "窓から差し込む柔らかい朝の光"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "young pastel-colored boy looking out window with soft morning light, cozy room interior, watercolor style",
+      "image_prompt_sd": "a sensitive young boy with blue hair in pastel clothes looking sadly out window, soft watercolor style, gentle morning light, warm and calm atmosphere",
+      "negative_prompt_sd": "dark, harsh shadows, overly realistic"
+    },
+    {
+      "page": 2,
+      "text": "リオは友だちのグループの話についていけず、休み時間がつらく感じていました。心の中で『自分は違う』という気持ちが強まり、どんどん孤独を感じていました。そんな自分に戸惑いながらも、リオは小さな光を見つけました。",
+      "scene_summary": "教室の片隅でうつむくリオの目の前に、ほのかに光る小さな光の精がふわりと舞っている。",
+      "must_have": [
+        "リオ",
+        "小さな光の精",
+        "教室の窓",
+        "子ども達の影"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "young boy feeling lonely in classroom corner, glowing small fairy light near him, soft pastel colors, watercolor style",
+      "image_prompt_sd": "lonely pastel-colored boy with blue hair in classroom, delicate glowing light fairy hovering near him, watercolor painting, warm soft lines",
+      "negative_prompt_sd": "dark, scary, aggressive expressions"
+    },
+    {
+      "page": 3,
+      "text": "光の精はリオに言いました。「君の弱さは君だけの宝物。自分の心を大切にして、無理しないでいいんだよ」。リオはその言葉に励まされて、少しだけ自分の気持ちを認めてみることにしました。",
+      "scene_summary": "光の精がリオの手のひらにそっととまり、リオがやさしく笑顔を浮かべ始めている。",
+      "must_have": [
+        "リオの手のひら",
+        "光の精",
+        "リオの微笑み"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "small glowing fairy light perched on boy's palm, gentle smile on boy's face, warm pastel colors, watercolor illustration",
+      "image_prompt_sd": "a blue-haired boy softly smiling holding a glowing pastel fairy on his palm, watercolor style, soft light and warm atmosphere",
+      "negative_prompt_sd": "dark tones, sharp edges, harsh lighting"
+    },
+    {
+      "page": 4,
+      "text": "次の日、朝はまだつらかったけれど、リオは学校の保健室へ行くことにしました。自分の体調を大切にするための小さな選択です。心にはまだ少し不安もありましたが、光の精がそばにいてくれました。",
+      "scene_summary": "リオが学校の廊下をゆっくり歩き、やわらかな光が彼を包んでいる。保健室の入り口が見える。",
+      "must_have": [
+        "リオ",
+        "学校の廊下",
+        "保健室のドア",
+        "優しい光"
+      ],
+      "camera": "wide shot",
+      "image_prompt_api": "young boy walking slowly in school hallway toward nurse's office door, gentle glowing light around, watercolor pastel style",
+      "image_prompt_sd": "a blue-haired boy walking in soft light school corridor towards nurse's office, gentle watercolor pastel colors, calm and warm atmosphere",
+      "negative_prompt_sd": "crowded, dark, cold colors"
+    },
+    {
+      "page": 5,
+      "text": "保健室の先生に自分の気持ちを書いたメモを渡すこともできました。リオは自分の声をほんの少しだけ出してみて、心が少し軽くなったように感じました。小さな勇気が大きな変化の第一歩です。",
+      "scene_summary": "リオが少し緊張しながらも優しい保健室の先生にメモを渡している。光の精がうれしそうに見守る。",
+      "must_have": [
+        "リオ",
+        "保健室の先生",
+        "メモ",
+        "光の精"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "young boy handing note to kind nurse in school office, glowing tiny light fairy watching happily, soft pastel watercolor",
+      "image_prompt_sd": "blue-haired boy giving note to gentle nurse in pastel school nurse's office, tiny glowing fairy nearby, watercolor style",
+      "negative_prompt_sd": "angry faces, sharp colors, darkness"
+    },
+    {
+      "page": 6,
+      "text": "帰り道、リオは親に体調のことだけを伝える決心をしました。話すのは緊張したけれど、少しずつ自分の気持ちを伝えることができて嬉しかったのです。心が少しずつ強くなっていきました。",
+      "scene_summary": "帰宅したリオがリビングに優しく話しかける場面。親は優しい表情でリオを見ている。",
+      "must_have": [
+        "リオ",
+        "親",
+        "リビング",
+        "落ち着いた表情"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "young boy talking gently to parents in cozy living room, warm pastel colors, watercolor illustration",
+      "image_prompt_sd": "blue-haired boy speaking quietly to loving parents in soft-lit living room, pastel watercolor style, gentle atmosphere",
+      "negative_prompt_sd": "harsh faces, crowded scenes, darkness"
+    },
+    {
+      "page": 7,
+      "text": "その夜、リオは好きな音楽を聴きながら、温かい飲み物をゆっくり飲みました。心と体にやさしい時間を持つことで、少しずつ夜の不安が和らいでいきました。光の精がそっとそばにいてくれました。",
+      "scene_summary": "リオが自分の部屋でヘッドフォンをして、カップを持ちながらほっとしている。光の精が近くに浮かぶ。",
+      "must_have": [
+        "リオ",
+        "ヘッドフォン",
+        "カップ",
+        "光の精"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "young boy with headphones drinking warm beverage in cozy room, small glowing fairy nearby, pastel watercolor style",
+      "image_prompt_sd": "blue-haired boy relaxing with headphones and warm drink in softly lit room, tiny glowing fairy floating near, watercolor illustration",
+      "negative_prompt_sd": "dark, cluttered, aggressive colors"
+    },
+    {
+      "page": 8,
+      "text": "リオはまだ毎日を完璧に過ごせるわけではないけれど、自分の弱さを受け入れながら進むことを決めました。少しずつ体も心も回復し、光の精が彼の中で大きな輝きに変わり始めたのです。",
+      "scene_summary": "リオが明るい窓辺で目を開き、光の精が彼の胸のあたりから輝きとなって広がっている。",
+      "must_have": [
+        "リオ",
+        "輝く光の精",
+        "窓からの光"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "young boy opening eyes with glowing light expanding from chest, soft pastel colors, warm watercolor style",
+      "image_prompt_sd": "blue-haired boy with light expanding from chest, surrounded by soft glowing fairies, watercolor pastel illustration",
+      "negative_prompt_sd": "dark, heavy shadows, harsh lines"
+    },
+    {
+      "page": 9,
+      "text": "リオの心に育ったその光は、彼にとっての新しい力になりました。もう一人じゃない、新しい希望の扉が少しずつ開いていきます。また明日を迎える勇気が、リオに生まれました。",
+      "scene_summary": "リオが外の夕焼けを見つめながら、穏やかな笑顔で立っている。光の精が空へ昇っていく。",
+      "must_have": [
+        "リオ",
+        "夕焼け空",
+        "光の精が昇る光景"
+      ],
+      "camera": "wide shot",
+      "image_prompt_api": "young boy standing calmly watching sunset outside, glowing light fairy ascending into sky, pastel watercolor",
+      "image_prompt_sd": "blue-haired boy looking at warm sunset, small glowing fairy rising into soft sky, watercolor pastel style",
+      "negative_prompt_sd": "dark, stormy, gloomy"
+    },
+    {
+      "page": 10,
+      "text": "リオは大切なことを知りました。自分の弱さも不安も、心の中の光へ変えられること。どんな日も、自分のペースで歩んでいけばいい。新しい物語は、ここから始まるのです。",
+      "scene_summary": "リオが穏やかな表情で歩き出し、背中には温かい光が輝いている。明るい未来への扉が描かれている。",
+      "must_have": [
+        "リオ",
+        "輝く光",
+        "未来への扉",
+        "優しい空気感"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "young boy walking forward with glowing light behind, bright doorway representing future, pastel watercolor style",
+      "image_prompt_sd": "blue-haired boy walking toward bright doorway with warm glowing light, watercolor pastel illustration, hopeful atmosphere",
+      "negative_prompt_sd": "darkness, heavy shadows, sadness"
+    }
+  ]
+}
