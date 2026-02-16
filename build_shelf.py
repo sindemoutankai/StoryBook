@@ -7,7 +7,6 @@ BOOKS_DIR = DOCS_DIR / "books"
 OUT_INDEX = DOCS_DIR / "index.html"
 
 def parse_dt(book_id: str):
-    # book_id: YYYYMMDD_HHMMSS
     try:
         return datetime.strptime(book_id, "%Y%m%d_%H%M%S")
     except Exception:
@@ -17,15 +16,13 @@ def main():
     BOOKS_DIR.mkdir(parents=True, exist_ok=True)
 
     books = []
-    for book_dir in BOOKS_DIR.iterdir():
-        if not book_dir.is_dir():
-            continue
-        plan_path = book_dir / "book_plan.json"
-        cover_path = book_dir / "pages" / "01.png"
+    # ✅ 確実に拾う：各本の book_plan.json を直接探す
+    for plan_path in BOOKS_DIR.glob("*/book_plan.json"):
+        book_dir = plan_path.parent
         viewer_path = book_dir / "viewer.html"
-        pdf_path = book_dir / "book.pdf"
+        cover_path = book_dir / "pages" / "01.png"
 
-        if not plan_path.exists() or not viewer_path.exists():
+        if not viewer_path.exists():
             continue
 
         plan = json.loads(plan_path.read_text(encoding="utf-8"))
@@ -43,11 +40,7 @@ def main():
             "cover": f"books/{book_dir.name}/pages/01.png" if cover_path.exists() else "",
         })
 
-    # 新しい順
-    def sort_key(b):
-        dt = parse_dt(b["id"])
-        return dt or datetime.min
-    books.sort(key=sort_key, reverse=True)
+    books.sort(key=lambda b: parse_dt(b["id"]) or datetime.min, reverse=True)
 
     cards = []
     for b in books:
@@ -106,7 +99,7 @@ def main():
 </html>
 """
     OUT_INDEX.write_text(html, encoding="utf-8")
-    print("✅ Shelf generated:", OUT_INDEX)
+    print("✅ Shelf generated:", OUT_INDEX, "books:", len(books))
 
 if __name__ == "__main__":
     main()
