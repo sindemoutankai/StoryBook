@@ -16,8 +16,9 @@
     .meta{padding:12px 12px 0}
     .title{font-weight:700}
     .sub{color:#666;font-size:12px;margin-top:4px}
-    .actions{display:flex;gap:8px;padding:12px}
-    .btn{display:inline-block;padding:10px 12px;border:1px solid #ddd;border-radius:12px;background:#fff;text-decoration:none;color:#0b57d0;text-align:center;flex:1}
+    .actions{display:flex;gap:8px;padding:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:10px 12px;border:1px solid #ddd;border-radius:12px;background:#fff;text-decoration:none;color:#0b57d0;text-align:center;flex:1;min-width:90px}
+    .btn.disabled{color:#aaa;border-color:#eee;background:#fafafa;cursor:not-allowed}
     .hint{color:#666;font-size:13px;margin:10px 0 0}
   </style>
 </head>
@@ -33,36 +34,45 @@
           <a class="cover" href="books/20260216_172646/viewer.html">
             <img src="books/20260216_172646/pages/01.png" alt="cover" />
           </a>
+
           <div class="meta">
             <div class="title">心のなかのきらめき</div>
-            <div class="sub">2026-02-16 17:26:46</div>
+            <div class="sub">target_age: 12-15</div>
           </div>
+
           <div class="actions">
             <a class="btn" href="books/20260216_172646/viewer.html">Webで読む</a>
+            <span class="btn disabled" title="details.html がまだありません">詳細</span>
             <a class="btn" href="books/20260216_172646/book.pdf" target="_blank" rel="noreferrer">PDF</a>
           </div>
         </article><article class="card">
           <a class="cover" href="books/20260216_170909/viewer.html">
             <img src="books/20260216_170909/pages/01.png" alt="cover" />
           </a>
+
           <div class="meta">
             <div class="title">朝がつらい日のために</div>
-            <div class="sub">2026-02-16 17:09:09</div>
+            <div class="sub">target_age: 5-8</div>
           </div>
+
           <div class="actions">
             <a class="btn" href="books/20260216_170909/viewer.html">Webで読む</a>
+            <span class="btn disabled" title="details.html がまだありません">詳細</span>
             <a class="btn" href="books/20260216_170909/book.pdf" target="_blank" rel="noreferrer">PDF</a>
           </div>
         </article><article class="card">
           <a class="cover" href="books/20260216_161612/viewer.html">
             <img src="books/20260216_161612/pages/01.png" alt="cover" />
           </a>
+
           <div class="meta">
             <div class="title">ふしぎなシャボン玉石けんのひみつ</div>
-            <div class="sub">2026-02-16 16:16:12</div>
+            <div class="sub">target_age: 5-8</div>
           </div>
+
           <div class="actions">
             <a class="btn" href="books/20260216_161612/viewer.html">Webで読む</a>
+            <span class="btn disabled" title="details.html がまだありません">詳細</span>
             <a class="btn" href="books/20260216_161612/book.pdf" target="_blank" rel="noreferrer">PDF</a>
           </div>
         </article>
