@@ -1,0 +1,168 @@
+{
+  "title": "光のしずくと心の森",
+  "target_age": "12-15",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "characters": [
+    {
+      "name": "ユウキ",
+      "description": "12歳の少年。心が繊細で、学校の休み時間が苦手。柔らかい茶色の髪で、やさしい表情。いつもシンプルな服を着ている。"
+    },
+    {
+      "name": "しずくの精",
+      "description": "心の森に住む光のしずくの妖精。ユウキの弱さを強さに変える導き手で、やわらかな光をまとっている。"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "text": "ユウキは毎朝、心の森への扉を開けるのが辛くなっていました。楽しいはずの場所が、いつのまにか沈んだ霧に包まれて休み時間は息が詰まるよう。心に小さな痛みを感じながら、それでも扉の前で立ち止まりました。",
+      "scene_summary": "曇り空の朝、家の前で少し肩を落とすユウキ。背景に霧がかった森の扉が見える。",
+      "must_have": [
+        "ユウキ",
+        "霧のかかった扉",
+        "曇り空",
+        "小さく息を吐く表情"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "A young boy standing in front of a misty wooden door to a mystical forest, cloudy sky, soft watercolor, gentle pastel colors, warm illustration, children's book style",
+      "image_prompt_sd": "soft watercolor style, gentle pastels, young boy with light brown hair, misty forest door, cloudy sky, clean line art, warm light, children's storybook illustration",
+      "negative_prompt_sd": "dark shadows, harsh lines, overly realistic, scary elements, aggressive colors"
+    },
+    {
+      "page": 2,
+      "text": "休み時間の森は、ユウキにとって迷子になりやすい場所でした。仲間たちは不思議な光の輪を自由に飛び回っているけど、ユウキはどこに行けばいいかわからず、心がざわついてしまいます。鳥たちの笑い声も遠く感じました。",
+      "scene_summary": "光の輪が空を舞う明るい森だが、ユウキだけが立ち止まっている様子。少しうつむきがち。",
+      "must_have": [
+        "光の輪",
+        "森の中の木々",
+        "ユウキの戸惑う表情",
+        "空飛ぶ鳥たち"
+      ],
+      "camera": "wide shot",
+      "image_prompt_api": "Young boy standing confused in a bright fantasy forest with glowing rings flying in the air, birds laughing in distance, soft watercolor and pastel, warm friendly children's book illustration",
+      "image_prompt_sd": "fantasy forest with glowing light rings, young boy confused, soft pastel colors, watercolor texture, clean lines, warm and gentle light, children's book illustration",
+      "negative_prompt_sd": "dark horror elements, violent scenes, harsh shadows, overly realistic details"
+    },
+    {
+      "page": 3,
+      "text": "ある朝、ユウキは胸の奥に静かな痛みを感じました。それはまるで、小さなしずくが心の森を滴り落ちるよう。動きたくても体が言うことをきかず、森のそばから離れられませんでした。静かなさみしさに包まれます。",
+      "scene_summary": "ユウキが胸に手を当て、静かに目を閉じているシーン。背後にしずくが周りを漂う。",
+      "must_have": [
+        "ユウキの胸に手",
+        "光のしずく",
+        "静かな森の背景",
+        "ユウキの閉じた目"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "Close-up of a boy holding his chest, soft glowing droplets around him in a quiet forest setting, watercolor and pastel style, warm light, comforting children's book illustration",
+      "image_prompt_sd": "soft glowing droplets around young boy, close-up portrait, gentle pastel and watercolor style, warm and soothing light, clean lines, children's storybook art",
+      "negative_prompt_sd": "darkness, sharp contrast, disturbing imagery, overly detailed realism"
+    },
+    {
+      "page": 4,
+      "text": "森の霧が濃くなり、ユウキは居場所を失いかけていました。だれも自分のしずくの声を聞いてくれないのではと不安になり、涙がぽたぽたとしずくとなって落ちます。けれど、その小さなしずくは彼の心の声そのものでした。",
+      "scene_summary": "濃い霧に包まれ泣くユウキ。涙のしずくが光を放ち小さな光の球になる瞬間。",
+      "must_have": [
+        "ユウキの涙",
+        "濃霧の森",
+        "光る涙のしずく",
+        "ユウキの悲しげな顔"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "Crying boy in a foggy forest, tears glowing like small light droplets dripping, pastel watercolor style, warm children’s book illustration",
+      "image_prompt_sd": "foggy mystical forest, boy crying with glowing tears, soft pastels and watercolor, warm light, gentle line art, children's book style",
+      "negative_prompt_sd": "harsh lighting, violent expressions, realistic gore, dark horror style"
+    },
+    {
+      "page": 5,
+      "text": "ふと、ユウキの前にしずくの精が現れました。彼は言いました。「そのしずくは、弱さじゃなくて未来の強さの種だよ。」ユウキの顔にわずかに希望の光が差し込み、小さな手がしずくをそっと掬い上げました。",
+      "scene_summary": "光のしずくの精がユウキの前に現れ、ほほえみながら励ます。ユウキがしずくを感じ取る様子。",
+      "must_have": [
+        "しずくの精",
+        "ユウキの希望に満ちた表情",
+        "光のしずく",
+        "温かい森の背景"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "A glowing water sprite appearing in front of a hopeful boy in a magical forest, soft watercolor and pastel, gentle clean lines, warm comforting light, children's illustration",
+      "image_prompt_sd": "soft glowing water sprite, hopeful boy, magical forest background, watercolor and pastel, warm light, clean line art, children's book style",
+      "negative_prompt_sd": "darkness, menacing figures, overly dramatic shadows, horror themes"
+    },
+    {
+      "page": 6,
+      "text": "ユウキはしずくの精に導かれ、心の森の奥へ進みました。霧の中にあった小さな光がひとつ、またひとつと増えてゆき、やがて森全体をほんのり照らし始めました。彼の中の戸惑いが、一歩ずつ希望へと変わります。",
+      "scene_summary": "ユウキが光のしずくを手から放ち、光が森を優しく照らしていくシーン。霧が晴れかけている。",
+      "must_have": [
+        "光のしずくの群れ",
+        "霧の晴れ始めた森",
+        "ユウキの前向きな姿勢",
+        "温かな光の広がり"
+      ],
+      "camera": "wide shot",
+      "image_prompt_api": "Boy releasing glowing droplets into a foggy forest, droplets illuminating the area softly, soft pastel and watercolor, warm comforting atmosphere, children's book illustration",
+      "image_prompt_sd": "softly glowing droplets spreading light in foggy forest, boy with hopeful expression, watercolor and pastel style, warm light, clean lines, children's storybook art",
+      "negative_prompt_sd": "harsh lighting, dark themes, aggressive colors, realistic gore"
+    },
+    {
+      "page": 7,
+      "text": "光がもたらしたあたたかさに包まれて、ユウキは迷っていた場所に新しい道を見つけました。その道は、彼の心の小さな痛みを強さに変える道。彼の足はゆっくりだけれど確かに一歩踏み出します。",
+      "scene_summary": "新しく開けた明るい小道を歩きはじめるユウキ。周囲の光と色彩が明るく穏やかになっている。",
+      "must_have": [
+        "明るい小道",
+        "ユウキの歩く姿",
+        "優しい光のグラデーション",
+        "穏やかな森の風景"
+      ],
+      "camera": "medium wide shot",
+      "image_prompt_api": "Boy walking on a newly lit path in a warm forest, gentle gradient light, soft pastel and watercolor colors, clean lines, friendly children's book illustration",
+      "image_prompt_sd": "warm forest path with gentle light, boy stepping forward, pastel and watercolor style, clean contours, children's storybook style",
+      "negative_prompt_sd": "dark shadows, overly realistic details, frightening elements, harsh contrast"
+    },
+    {
+      "page": 8,
+      "text": "夜になり、ユウキはそっと心のしずくを抱きしめました。それはもう悲しみではなく、勇気の光。小さな光が集まって大きな輝きとなり、未来への小さな光のしずくになりました。",
+      "scene_summary": "夜空の下、ユウキが光るしずくを両手で包み込む暖かい光景。星の光も優しく輝いている。",
+      "must_have": [
+        "星空",
+        "ユウキの光るしずくを抱く手",
+        "夜の静かな森",
+        "優しい光の輝き"
+      ],
+      "camera": "close-up",
+      "image_prompt_api": "Boy gently holding glowing droplets under starry night sky in a quiet forest, soft watercolor and pastel colors, warm light, children's book illustration",
+      "image_prompt_sd": "starry night, boy embracing glowing droplets, quiet forest background, soft pastel and watercolor style, warm glowing light, children's book art",
+      "negative_prompt_sd": "dark gloomy mood, harsh lighting, aggressive tones, realistic gore"
+    },
+    {
+      "page": 9,
+      "text": "翌朝、ユウキは新しい決意を胸に森の扉をくぐりました。まだ少し不安はあったけれど、彼はもう一人じゃない。心に灯った光のしずくが彼の背中をそっと押し、歩き出す力になりました。",
+      "scene_summary": "朝日が差す森の扉の前で、前向きな表情のユウキが一歩踏み出すシーン。",
+      "must_have": [
+        "朝日の差す森の扉",
+        "ユウキの前向きな表情",
+        "背中に光る小さなしずく",
+        "明るい空"
+      ],
+      "camera": "medium shot",
+      "image_prompt_api": "Boy stepping through a forest door illuminated by morning sunlight, small glowing droplet on his back, hopeful and warm pastel illustration, children's book style",
+      "image_prompt_sd": "morning light shining on forest door, boy with hopeful expression, small glowing droplet on back, watercolor pastel style, clean lines, warm light",
+      "negative_prompt_sd": "dark shadows, angry expressions, overly realistic, horror elements"
+    },
+    {
+      "page": 10,
+      "text": "ユウキの光のしずくは、やがて広がる大きな森の中で強い光となりました。彼の弱さは、勇気とつながり、悩むすべての子どもたちに希望を届ける輝きとなったのです。",
+      "scene_summary": "広大な明るい森の中で、輝く光のしずくが空に向かって舞い上がる壮大なシーン。",
+      "must_have": [
+        "広い明るい森",
+        "輝く光のしずくの群れ",
+        "希望に満ちた空",
+        "ユウキのシルエット"
+      ],
+      "camera": "bird's-eye shot",
+      "image_prompt_api": "Expansive bright forest with shining droplets flying upwards to the sky, silhouette of a boy below, warm pastel and watercolor style, inspiring children's book illustration",
+      "image_prompt_sd": "bird's-eye view of bright forest with glowing droplets ascending, boy silhouette, soft pastel watercolor colors, warm light, clean lines",
+      "negative_prompt_sd": "darkness, gloomy atmosphere, realistic violence, harsh colors"
+    }
+  ]
+}
