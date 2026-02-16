@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+.venv/
+storybook/
+
+# Env vars
+.env
+
+# Editor
+.vscode/
+.DS_Store
+
+# Generated (we will publish via docs/, so ignore work/output)
+work/*
+output/*
+!work/.gitkeep
+!output/.gitkeep
+!output/pages/.gitkeep
+
+# Inputs (optional)
+input/*
+!input/.gitkeep
