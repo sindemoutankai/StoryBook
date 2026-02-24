@@ -1,0 +1,32 @@
+{
+  "comfy_base_url": "http://127.0.0.1:8188",
+  "workflow_api_json": "work/picturebook_api_flux.json",
+  "engine_type": "flux",
+
+  "nodes": {
+    "prompt": "6",
+    "save": "9",
+    "scheduler": "17",
+    "noise": "25",
+    "guidance": "60",
+    "size": "85",
+    "lora": "72"
+  },
+
+  "defaults": {
+    "seed": 12345,
+    "width": 1024,
+    "height": 1024,
+    "steps": 35,
+    "guidance": 2.5,
+    "lora_model_strength": 0.7,
+    "timeout_sec": 600,
+    "poll_sec": 1.0
+  },
+
+  "prompt_policy": {
+    "append_style_bible": true,
+    "append_character_consistency": true,
+    "extra_positive": "same protagonist across all pages, consistent animal species and face shape, same outfit colors, anthropomorphic animal picture book, soft watercolor, pastel palette, warm gentle lighting, child-friendly fantasy world"
+  }
+}

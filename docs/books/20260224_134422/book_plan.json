@@ -1,0 +1,298 @@
+{
+  "title": "ココとうたがいの責め虫",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "小さなうさぎのココは、森の村で仕事のミスをしてしまい、上司うさぎに嫌われた気がして毎日がつらい。",
+    "dominant_story": "『責め虫』という名の小さな虫が、ココの心の中で彼女を責め続け、心も体も縮こまらせている。",
+    "externalized_problem_name": "責め虫",
+    "problem_message": "『もう取り返しがつかない、だから怖がりなさい』とココに言い続ける",
+    "hidden_values": [
+      "信頼されたい気持ち",
+      "ちゃんとがんばりたい心"
+    ],
+    "resources": [
+      "以前のチームで頼られた経験",
+      "優しく声をかける力"
+    ],
+    "small_experiment_metaphor": "魔法のしるし（小さなメモ）を使った短い報告",
+    "new_identity_title": "逃げなかった人"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココは失敗してしまい、上司うさぎに嫌われたと思い込み、心にぽっかり穴があく。",
+      "narrative_link": "問題の気配が心に満ちる",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "ココは上司の前で話すことを怖がり、自分をひっこめてしまう。",
+      "narrative_link": "自分の声を出してはいけないと思う",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反・巻き込まれ",
+      "story_event": "責め虫がココの心を責め、行動をますます制限していく。",
+      "narrative_link": "行動の自由が狭まる",
+      "page": 3
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "責め虫がココの心臓をドクドクさせ、胃が痛くなり、話すことも縮こまる。",
+      "narrative_link": "身体や心に苦しみが現れる",
+      "page": 4
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "友達の森のふくろうがココに話を聴き、責め虫の存在を見せ、助けを伝える。",
+      "narrative_link": "問題を外在化し対話の始まり",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意＋出発",
+      "story_event": "ココは自分の大切な「信頼されたい」という心に触れ、小さな一歩を決めて歩き出す。",
+      "narrative_link": "希望をもち進み始める",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練＋E反応",
+      "story_event": "責め虫がまた現れ「取り返しがつかないよ」とささやくが、ココはかつての力を思い出す。",
+      "narrative_link": "過去の資源で試練に立ち向かう",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "ココは小さな魔法のしるし＝短いメモを書いて、上司に話す準備をする。",
+      "narrative_link": "具体的な小さな実験で変化を起こす",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決＋I勝利",
+      "story_event": "ココは緊張しながらもしるしを使い、責め虫の声を押しのけて上司に話すことができた。",
+      "narrative_link": "問題に立ち向かい自己を確立する",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消＋帰還＋Q→T→W",
+      "story_event": "ココは「逃げなかった人」として新しい自分を見つけ、また安心して森の村で暮らし始める。",
+      "narrative_link": "新しい自己定義と未来への希望",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "クリーム色の柔らかいうさぎ。優しい表情で黄色のフード付きマントを着ている。小さな青い鞄を持つ。",
+      "role": "protagonist"
+    },
+    {
+      "name": "責め虫",
+      "description": "嫌な言葉をつぶやく小さな黒い虫。ココの心に住み、彼女を責める。",
+      "role": "problem"
+    },
+    {
+      "name": "森のふくろう",
+      "description": "知恵のある優しいふくろう。ココの相談相手で、問題の名前をつけたり力を貸す。",
+      "role": "helper"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "小さなうさぎのココは、森の村で大きなミスをしてしまいました。すると、心の中に小さな影が広がってきました。",
+      "reader_question": "みんなは失敗したとき、どんな気持ちになりますか？",
+      "illustration_note": "クリーム色のうさぎココが村の小道に立ち、少し寂しそうにしている。背景はやわらかな森の風景。",
+      "scene_summary": "ミスのあと、ココの心に問題が芽生える瞬間。",
+      "must_have": [
+        "ココの黄色いマント",
+        "小さな影の気配"
+      ],
+      "camera": "ココを正面からやや引き気味の視点",
+      "image_prompt_api": "small cream-colored rabbit in yellow hooded cloak standing on forest village path, soft shadow growing nearby, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "small cream-colored rabbit, yellow cloak, gentle expression, forest village background, soft shadows growing, watercolor style, pastel colors, clean outlines, warm light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, harsh colors"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ"
+      ],
+      "text": "ココは上司の前で話すことがとても怖くなり、できるだけ声を出さずに小さくなってしまいました。",
+      "reader_question": "みんなは怖い気持ちを感じたとき、どうしますか？",
+      "illustration_note": "ココがふるえるように小さく丸まっている。遠くに冷たい目をした上司うさぎの影がある。",
+      "scene_summary": "ココが話すことを恐れて縮こまる場面。",
+      "must_have": [
+        "ココの表情の不安感",
+        "遠くの上司の影"
+      ],
+      "camera": "ココを斜め上から見下ろす視点",
+      "image_prompt_api": "small cream-colored rabbit trembling and shrinking, distant cold-looking rabbit figure, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "nervous small cream-colored rabbit, shrinking posture, distant stern rabbit figure, forest office backdrop, watercolor style, pastel colors, clean outlines, warm light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dark harsh shadows"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "δ"
+      ],
+      "text": "すると、黒くてちいさな『責め虫』が、ココの心にとまり、こまることばを何度もささやきました。",
+      "reader_question": "責め虫みたいないやな声は、どんな時に聞こえてきますか？",
+      "illustration_note": "小さな黒い虫がココの肩にとまり、口を動かしている。ココは困った顔をしている。",
+      "scene_summary": "責め虫がココの心を責め始める場面。",
+      "must_have": [
+        "責め虫の小ささと黒さ",
+        "ココの困った表情"
+      ],
+      "camera": "ココの肩に寄ったクローズアップ",
+      "image_prompt_api": "small black bug whispering on cream-colored rabbit's shoulder, rabbit looking troubled, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "little black bug on rabbit shoulder, whispering, cream-colored rabbit worried face, gentle forest background, watercolor style, pastel colors, clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, harsh lighting"
+    },
+    {
+      "page": 4,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "責め虫が現れると、ココの胸はドクドク痛み、胃もキリキリと締めつけられ、こわくて動けなくなりました。",
+      "reader_question": "心がドキドキしたり、痛くなったことはありますか？どんなとき？",
+      "illustration_note": "ココが胸に手をあてて震え、背景に責め虫が不気味に光っている。",
+      "scene_summary": "責め虫がココの身体反応を引き起こすさま。",
+      "must_have": [
+        "ココの不安なポーズ",
+        "責め虫の存在感"
+      ],
+      "camera": "ココの胸元のアップ、背景にぼんやり責め虫",
+      "image_prompt_api": "anxious cream-colored rabbit clutching chest, small dark bug glowing behind, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "worried cream-colored rabbit, clutching chest, small black bug glowing faintly, forest background, watercolor style, pastel tones, clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, harsh shadows"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "森の知恵者のふくろうがやってきて、ココに言いました。「それは責め虫。名前をつけて、話してみよう。」",
+      "reader_question": "みんなはいやな気持ちに名前をつけたことがありますか？",
+      "illustration_note": "年老いたふくろうがココに優しく話しかけ、ココが少し安心した表情をしている。",
+      "scene_summary": "ふくろうが責め虫を教え、対話のきっかけが生まれる。",
+      "must_have": [
+        "ふくろうの優しい表情",
+        "ココの安心し始めた顔"
+      ],
+      "camera": "ふくろうの胸元とココの顔の中間距離",
+      "image_prompt_api": "wise old owl talking gently to small cream-colored rabbit, comforting forest scene, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "kind elderly owl speaking to small rabbit, comforting expressions, forest setting, watercolor style, pastel colors, clean outlines, warm light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dark tones"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは自分が大切にしている『信頼されたい』気持ちに気づき、ゆっくり小さな一歩をふみだすことにしました。",
+      "reader_question": "みんなが大事にしている気持ちは何ですか？小さな一歩ってどんなこと？",
+      "illustration_note": "ココが遠くの明るい森を見つめ、背筋を伸ばして歩き始める様子。",
+      "scene_summary": "新しい希望を胸に出発を決めるココ。",
+      "must_have": [
+        "明るい森の背景",
+        "ココの決意の表情"
+      ],
+      "camera": "ココの少し横顔、歩き出す姿を見下ろす角度",
+      "image_prompt_api": "small cream-colored rabbit starting to walk toward bright forest, hopeful expression, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "determined cream-colored rabbit stepping forward, bright forest background, pastel colors, watercolor style, clean outlines, warm light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, harsh shadows"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "責め虫は『もう遅いよ』と口ばしるけど、ココは昔、みんなを助けた自分を思い出し、勇気をかき集めました。",
+      "reader_question": "辛い声に負けそうになったら、どんなことを思い出しますか？",
+      "illustration_note": "責め虫がささやきながらココに近づくが、ココは強く前を見つめている。",
+      "scene_summary": "試練に立ち向かう心の力を思い出す場面。",
+      "must_have": [
+        "責め虫のささやく姿",
+        "ココの強いまなざし"
+      ],
+      "camera": "ココの顔アップ、責め虫が近くにいる視点",
+      "image_prompt_api": "small dark bug whispering, determined cream-colored rabbit remembering past deeds, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "black whispering bug near focused rabbit face, gentle forest background, watercolor style, pastel tones, clean outlines, warm light",
+      "negative_prompt_sd": "low quality, inconsistent character design, harsh lighting"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "ココは小さな魔法のしるしを作りました。短いメモに『原因』『対策』『確認』を書いて、勇気を少し使います。",
+      "reader_question": "小さな工夫で勇気になることは何でしょう？",
+      "illustration_note": "ココが青い鞄から小さな紙を取り出し、真剣に書いている姿。",
+      "scene_summary": "勇気のしるしを手に入れる瞬間。",
+      "must_have": [
+        "ココの青い鞄",
+        "小さな紙に書く手元"
+      ],
+      "camera": "ココの手元にフォーカス、顔は真剣な表情の横顔",
+      "image_prompt_api": "small cream-colored rabbit writing a short note from blue satchel, hopeful expression, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "focused rabbit writing on paper, small blue satchel, gentle forest lighting, watercolor style, pastel colors, clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dull colors"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "ココは責め虫の声に負けず、しるしを手に上司に話しました。小さな勇気で『逃げなかった人』になれたのです。",
+      "reader_question": "みんなも勇気を出したとき、どんな気持ちになりますか？",
+      "illustration_note": "ココが穏やかに自信を持って上司に話している。責め虫は小さくなり、遠ざかっている。",
+      "scene_summary": "勇気をもって問題に立ち向かい、勝利する場面。",
+      "must_have": [
+        "ココの自信ある表情",
+        "遠ざかる責め虫"
+      ],
+      "camera": "ココを上司に向けて正面から写す視点",
+      "image_prompt_api": "small cream-colored rabbit confidently talking to stern rabbit, small black bug fading away, pastel forest office background, soft watercolor",
+      "image_prompt_sd": "confident rabbit speaking, fading black bug, forest office setting, watercolor style, pastel colors, clean outlines, warm lighting",
+      "negative_prompt_sd": "low quality, inconsistent character design, harsh shadows"
+    },
+    {
+      "page": 10,
+      "propp_functions": [
+        "K"
+      ],
+      "text": "それからも、ココは『逃げなかった人』として、森の村で安心して笑顔で暮らしました。未来は明るく続いていきます。",
+      "reader_question": "みんなの未来はどんなふうに明るくなりそうですか？",
+      "illustration_note": "明るい日の森の中、笑顔で歩くココ。周りには友達の動物たちも笑顔で一緒にいる。",
+      "scene_summary": "新しい自分として未来に向かい歩くココの幸せな日常。",
+      "must_have": [
+        "ココの笑顔",
+        "友達の動物たち",
+        "明るい森の背景"
+      ],
+      "camera": "優しく包むような広角の視点、全体を見渡す感じ",
+      "image_prompt_api": "happy cream-colored rabbit walking with smiling animal friends in bright forest, soft watercolor, pastel, child-friendly",
+      "image_prompt_sd": "smiling rabbit with friends in sunny forest, watercolor style, pastel colors, clean outlines, warm light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dull colors"
+    }
+  ]
+}

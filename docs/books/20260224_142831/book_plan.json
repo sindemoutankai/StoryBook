@@ -1,0 +1,280 @@
+{
+  "title": "ココとうさぎ森のこわいかげ",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "小さなうさぎのココは、森で楽しく過ごしていたが、心に“こわいかげ”という不安の存在が近づいてきました。",
+    "dominant_story": "“こわいかげ”がココの心をじわじわとおおい、行動や気持ちに影響をあたえています。",
+    "externalized_problem_name": "こわいかげ",
+    "problem_message": "「またできないよ」「ひとりぼっちだよ」とココにささやく。",
+    "hidden_values": [
+      "自分を信じたい気持ち",
+      "あたたかいともだちと楽しくすごしたい望み"
+    ],
+    "resources": [
+      "やさしい森のともだち",
+      "小さな青いしるし（ココのポシェット）"
+    ],
+    "small_experiment_metaphor": "青いリボンのおまじない",
+    "new_identity_title": "森の小さな勇気のうさぎ"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココはいつも元気だけど、最近心に小さな“こわいかげ”がひそんでいます。",
+      "narrative_link": "新しい冒険が始まる気配。",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "“こわいかげ”は「ここで遊んじゃだめだよ」とココを禁じます。",
+      "narrative_link": "ココは戸惑いながらも森のなかへ。",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反・巻き込まれ",
+      "story_event": "ココは禁じられた森の奥へ足を踏み入れ、“こわいかげ”が増してしまいます。",
+      "narrative_link": "物語の問題が深まる。",
+      "page": 3
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "“こわいかげ”はココの胸をぎゅっと締めつけ、不安と心配をふくらませます。",
+      "narrative_link": "心と体の変化がはじまる。",
+      "page": 4
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "森のやさしいフクロウが、ココに「こわいかげと向き合う秘密のしるしがあるよ」と教えます。",
+      "narrative_link": "ココに解決の糸口が届く。",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意・出発",
+      "story_event": "ココは青いポシェットをぎゅっと握り、こわいかげと向き合うことを決めて森を進み始めます。",
+      "narrative_link": "勇気を持った旅が始まる。",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練",
+      "story_event": "“こわいかげ”は「まただめだよ」とささやくけれど、ココはふんばります。",
+      "narrative_link": "こわいかげとの対話が続く。",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "フクロウからもらった青いリボンのおまじないをポシェットに結び、ココは少しずつ自信を取り戻します。",
+      "narrative_link": "小さな魔法が力になる。",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決・勝利",
+      "story_event": "ココはこわいかげに立ち向かい、「わたしはできるよ」と優しく言います。かげは少しずつ逃げていきました。",
+      "narrative_link": "大きな勝利が訪れる。",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消・帰還・認知・変身・報酬",
+      "story_event": "森に戻ったココは、もうこわいかげにびくびくしません。ともだちもできて、これからは“森の小さな勇気のうさぎ”として毎日を楽しく歩きます。",
+      "narrative_link": "未来への希望で終わる。",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "小さなクリーム色のうさぎ。黄色いフード付きマントに茶色のショートパンツ、赤いブーツを履き、小さな青いポシェットを持っています。",
+      "role": "protagonist"
+    },
+    {
+      "name": "こわいかげ",
+      "description": "黒くてふわふわした影のような存在。ココの心にささやき、不安を運んできます。",
+      "role": "problem"
+    },
+    {
+      "name": "やさしいフクロウ",
+      "description": "森の賢いフクロウ。ココに秘密のしるしと勇気を教えてくれます。",
+      "role": "helper"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "小さなうさぎのココは、やさしい森で楽しくすごしていました。でも、心の奥に“こわいかげ”がひそんでいる気がします。",
+      "reader_question": "みんなは心の中に小さなかげを感じたことはあるかな？",
+      "illustration_note": "やわらかい森の背景、ココがやさしい表情で立ち、薄暗い影の気配がうっすら漂う。",
+      "scene_summary": "ココと森のやさしい様子、かげの気配に始まり。",
+      "must_have": [
+        "ココの黄色いマント",
+        "青いポシェット"
+      ],
+      "camera": "中間距離でココの全身と背景を映す",
+      "image_prompt_api": "small cream-colored rabbit with yellow hooded cloak and blue satchel in gentle forest, soft shadows hinting at a faint dark shadow, warm pastel colors, children's watercolor book style",
+      "image_prompt_sd": "small rabbit, soft cream fur, yellow hooded cloak, blue satchel, gentle forest background, soft shadow hint, warm pastel watercolors, clean outline, friendly atmosphere",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, harsh shadows"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ",
+        "δ"
+      ],
+      "text": "ある日、“こわいかげ”は「ここで遊んじゃだめだよ」とココに言いました。でも、ココは森の奥へと足を踏み入れてしまいます。",
+      "reader_question": "みんなは誰かに言われて、やりたいことをがまんしたことある？",
+      "illustration_note": "ココが迷いながらも森の奥へ進み、薄暗い影が大きくなる場面。",
+      "scene_summary": "ココが禁じられた場所へ入り、問題が強まる描写。",
+      "must_have": [
+        "ココの赤いブーツ",
+        "長い耳の表情"
+      ],
+      "camera": "やや引いた視点で森の奥を見せる",
+      "image_prompt_api": "small cream rabbit stepping into darker part of forest, shadowy presence whispering, cautious but curious expression, soft watercolor, pastel tones",
+      "image_prompt_sd": "small rabbit with yellow cloak, stepping forward in darkening forest, dark shadow looming, pastel warm watercolors, gentle light",
+      "negative_prompt_sd": "extra limbs, inconsistent character, low quality, strong contrast shadows"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "“こわいかげ”はココの心をぎゅっと包み、不安や怖さをふくらませてしまいました。ココは胸がきゅっと苦しくなります。",
+      "reader_question": "心がぎゅっと苦しくなったとき、どうする？",
+      "illustration_note": "ココが胸を押さえて苦しそうにする一方で、影が大きくまとわりつく様子。",
+      "scene_summary": "不安がココの体に影響を与え始めた。",
+      "must_have": [
+        "ココの丸い目の表情",
+        "影の存在感"
+      ],
+      "camera": "ココの表情をアップで強調",
+      "image_prompt_api": "small cream rabbit clutching chest, dark shadow wrapping around, anxious expression, soft pastel watercolors, warm light",
+      "image_prompt_sd": "worried small rabbit, yellow cloak, shadow hugging, pastel gentle colors, clean lines",
+      "negative_prompt_sd": "blurriness, extra limbs, wrong colors, harsh shadows"
+    },
+    {
+      "page": 4,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "ある夜、やさしい森のフクロウがやってきて、「こわいかげには、青いリボンのおまじないが効くよ」と教えてくれました。",
+      "reader_question": "不安なとき、みんなはどんな秘密の力がほしい？",
+      "illustration_note": "優しい目のフクロウが木の上からココに語りかける明るい夜の森。",
+      "scene_summary": "助けとなる人物（フクロウ）が登場し解決のヒントが提示される。",
+      "must_have": [
+        "ココの青いポシェット",
+        "フクロウの優しい表情"
+      ],
+      "camera": "木の枝ごしに二匹を見下ろす視点",
+      "image_prompt_api": "kind owl perched on tree branch, speaking to small cream rabbit with yellow cloak, nighttime soft pastel forest, warm glow",
+      "image_prompt_sd": "wise owl, gentle eyes, small rabbit listening, soft watercolor night tones, pastel glow",
+      "negative_prompt_sd": "harsh lines, extra limbs, low detail, dark tones"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは決心して、青いポシェットをしっかり握り、こわいかげに立ち向かうための旅へ出発しました。",
+      "reader_question": "勇気を出して新しいことに踏み出すとき、何が助けになる？",
+      "illustration_note": "朝の明るい森、ココが前を見つめて歩き出す場面、背中にポシェット。",
+      "scene_summary": "出発と決意のシーン。",
+      "must_have": [
+        "ココの黄色いマントと赤いブーツ",
+        "青いポシェット"
+      ],
+      "camera": "後ろ姿のロングショット、光が差し込む森林小道",
+      "image_prompt_api": "small cream rabbit walking forward on sunlit forest path, yellow cloak fluttering, blue satchel, hopeful expression, pastel watercolor style",
+      "image_prompt_sd": "young rabbit walking, warm forest light, soft watercolor, clean outlines, pastel colors",
+      "negative_prompt_sd": "extra limbs, inconsistent character design, dark shadows"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "“こわいかげ”はまたココに「まただめだよ」と言いますが、ココはしっかりふんばって、ゆっくり前へ進みます。",
+      "reader_question": "あきらめそうなとき、どうやってがんばれると思う？",
+      "illustration_note": "ココが少し怖がりつつも、毅然と前を見つめる表情と姿勢。",
+      "scene_summary": "試練に立ち向かう心の動き。",
+      "must_have": [
+        "ココの丸い目の力強い表情",
+        "影の存在感"
+      ],
+      "camera": "正面寄りの中距離ショットでココの決意を見せる",
+      "image_prompt_api": "small cream rabbit determined facing dark shadow, soft pastel colors, warm light, children's watercolor style",
+      "image_prompt_sd": "determined young rabbit with yellow cloak, shadow presence, gentle watercolor pastel tones",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent design, harsh shadow"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "フクロウからもらった青いリボンをポシェットに結ぶと、ココの心は少しずつ軽くなり、自信がふわっともどってきました。",
+      "reader_question": "自分だけの魔法のおまじないはあるかな？",
+      "illustration_note": "ココが青いリボンを結び、ほっと笑顔がこぼれる明るい森の場面。",
+      "scene_summary": "小さな魔法を通して変化が始まる。",
+      "must_have": [
+        "青いリボン",
+        "ココの優しい笑顔"
+      ],
+      "camera": "アップでリボンを結ぶ手元と笑顔を強調",
+      "image_prompt_api": "small rabbit tying blue ribbon on blue satchel, gentle smile, bright forest background, pastel watercolor tones",
+      "image_prompt_sd": "young rabbit with yellow hood cloak, blue ribbon, pastel colors, soft lighting",
+      "negative_prompt_sd": "extra limbs, low resolution, inconsistent style"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "ついにココはこわいかげに向き合い、「わたしはできるよ」とやさしく伝えました。かげは少しずつ小さくなって消えていきました。",
+      "reader_question": "怖いことに立ち向かう勇気、どこからくると思う？",
+      "illustration_note": "ココがゆっくり手をのばし、影が薄く消えていく様子を描く。",
+      "scene_summary": "こわいかげとの対決と勝利。",
+      "must_have": [
+        "ココの穏やかな表情",
+        "小さくなる影"
+      ],
+      "camera": "ココのアップと影の遠ざかる遠景を組み合わせた構図",
+      "image_prompt_api": "small cream rabbit facing fading dark shadow, gentle pastel colors, hopeful warm light, watercolor children's style",
+      "image_prompt_sd": "determined small rabbit, yellow cloak, shrinking shadow, soft watercolor pastel light",
+      "negative_prompt_sd": "inconsistent character, extra limbs, dark harsh shadows"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "K"
+      ],
+      "text": "森に戻ったココは、もうこわいかげにおびえません。ともだちと笑いあい、みんなから“森の小さな勇気のうさぎ”と呼ばれました。",
+      "reader_question": "ココみたいに勇気をもてたら、どんなことができそう？",
+      "illustration_note": "明るい森の広場で友だちと笑顔のココ、みんなが楽しそうに集まっている。",
+      "scene_summary": "変化を感じさせる希望あふれる未来。",
+      "must_have": [
+        "ココの赤いブーツ",
+        "笑顔の友だち"
+      ],
+      "camera": "広角のほほえましいグループショット",
+      "image_prompt_api": "happy cream rabbit with friends in bright forest clearing, warm pastel colors, gentle watercolor children's illustration",
+      "image_prompt_sd": "smiling young rabbit with yellow cloak, group of animal friends, soft watercolor pastel light",
+      "negative_prompt_sd": "extra limbs, low quality, inconsistent colors"
+    }
+  ]
+}
