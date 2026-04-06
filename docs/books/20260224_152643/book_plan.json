@@ -1,0 +1,296 @@
+{
+  "title": "ココとうしろむきのいくなむし",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "小さなうさぎのココは、毎日がつらくて心も体も重く感じている。",
+    "dominant_story": "『いくなむし』に追いかけられて、どこへも行っちゃいけないと感じている。",
+    "externalized_problem_name": "いくなむし",
+    "problem_message": "『もう行くな！』とココを止めてしまう声。",
+    "hidden_values": [
+      "やりがいのあることをしたい",
+      "誰かのためになりたい"
+    ],
+    "resources": [
+      "小さな青いポシェットの中の大切なお守り",
+      "森の友だちの温かい声"
+    ],
+    "small_experiment_metaphor": "そっと風を呼ぶ小さなおまじない",
+    "new_identity_title": "森のみんなのやさしいひかり"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココは心も体も重く、毎日がうまくいかない気持ちでいっぱい。",
+      "narrative_link": "主人公の欠けた希望と元気な日常の希求を示す。",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "『いくなむし』が『もう会社に行くな！』と言うように、ココは外に出ることを怖がる。",
+      "narrative_link": "主人公の不安と行動の制限を表す。",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反・巻き込まれ",
+      "story_event": "ココは『いくなむし』に追いかけられ、動けなくなってしまう。",
+      "narrative_link": "問題の影響が深まっている様子。",
+      "page": 2
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "『いくなむし』のせいでココの体は重く、やりたいことができなくなる。",
+      "narrative_link": "問題が主人公の心身に与える影響を示す。",
+      "page": 3
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "森の友だちが心配してココに声をかける。",
+      "narrative_link": "外の助けの登場で新しい道が見え始める。",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意",
+      "story_event": "ココは小さな勇気を出して、もう一度歩き出すことにする。",
+      "narrative_link": "主人公が行動を決意し変化の旅に出る。",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練",
+      "story_event": "『いくなむし』がまた現れて困らせるが、ココはお守りを握りしめる。",
+      "narrative_link": "問題との葛藤と内面の資源が示される。",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "ココは風を呼ぶ小さなおまじないを試し、『いくなむし』を追い払う。",
+      "narrative_link": "新しい力の獲得と対処手段の発見。",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決",
+      "story_event": "ココは『いくなむし』と最後の戦いをして、負けないことを選ぶ。",
+      "narrative_link": "主人公が問題に立ち向かい、克服する。",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消・帰還",
+      "story_event": "『いくなむし』は消え、ココは森でやりがいと日々の喜びを見つける。",
+      "narrative_link": "平和と成長、未来への希望の表現。",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "10歳くらいの小さなクリーム色のうさぎ。黄色のフードつきマントと茶色の短パン、小さな赤いブーツをはいている。小さな青いポシェットをいつも持っている。",
+      "role": "protagonist"
+    },
+    {
+      "name": "いくなむし",
+      "description": "ココの動きを止めようとする、黒っぽくて小さな虫のような存在。『いくな』と言う声を聞かせるが本当はココのためを思っているわけではない。",
+      "role": "problem"
+    },
+    {
+      "name": "森の友だち",
+      "description": "やさしい声でココを励ます小鳥やリスたち。ココの心に光をともす。",
+      "role": "helper"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "ココは毎日、体も心もとても重く感じていました。なんだか全部がうまくいかない気がして、悲しい気持ちがやってきます。",
+      "reader_question": "みんなは、どんなときに体が重く感じるかな？",
+      "illustration_note": "クリーム色の小さなうさぎのココが森の中でうつむきながら座っている。やわらかい水彩で森の静かな朝の光。",
+      "scene_summary": "ココの重い心と体がはじまる。",
+      "must_have": [
+        "ココの黄色いフードつきマント",
+        "クリーム色の毛並み"
+      ],
+      "camera": "やや斜め前から静かに見守る視点",
+      "image_prompt_api": "small cream-colored rabbit wearing yellow hooded cloak sitting quietly in a gentle fantasy forest, soft pastel colors, warm morning light",
+      "image_prompt_sd": "small cream-colored rabbit in yellow cloak, sitting sad in gentle forest, soft watercolor, pastel, warm light, children's book style",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dark scary atmosphere"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ",
+        "δ"
+      ],
+      "text": "そんなココのそばに、『いくなむし』がひそかにやってきました。「もう行くな！」と小さな声でささやきます。ココは立ち止まってしまいました。",
+      "reader_question": "もしも君のそばに『いくなむし』がいたらどうする？",
+      "illustration_note": "黒っぽいちいさな虫がココの耳元でささやいている。ココは驚いて少しこわい顔。",
+      "scene_summary": "ココに『いくなむし』が近づき、動けなくなる。",
+      "must_have": [
+        "ココの赤い小さなブーツ",
+        "いくなむしの黒い小虫"
+      ],
+      "camera": "近くの横顔をアップで",
+      "image_prompt_api": "small cream-colored rabbit with yellow hooded cloak startled by small dark bug whispering near ear in soft forest light",
+      "image_prompt_sd": "rabbit startled by small dark bug whispering, soft pastel colors, watercolor style, gentle forest background",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, scary or violent"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "『いくなむし』がつよくなって、ココの体はますます重くなりました。やりたいことも、動きたい気持ちも遠ざかりました。",
+      "reader_question": "つらい気持ちは体にどんなふうにあらわれるかな？",
+      "illustration_note": "ココがうつむいて立ち止まっている。背中に小さな黒い虫がまとわりつくイメージで不安を表現。",
+      "scene_summary": "いくなむしの影響がココの体と心に広がる。",
+      "must_have": [
+        "ココの青いポシェット",
+        "動けなくなった様子"
+      ],
+      "camera": "少し遠目で全身が見える構図",
+      "image_prompt_api": "small cream-colored rabbit with yellow cloak looking sad and heavy with small dark bug attached, soft watercolor forest",
+      "image_prompt_sd": "rabbit sad and heavy with small dark bug around, gentle pastel forest background, children's book style",
+      "negative_prompt_sd": "poor quality, extra limbs, inconsistent character design, dark or gloomy"
+    },
+    {
+      "page": 4,
+      "propp_functions": [],
+      "text": "ココはからだがだるく、心はさみしくなりました。友だちと遊ぶのも怖くなり、森の声もうすれていきます。",
+      "reader_question": "心がつらいとき、何かじぶんにできることはあるかな？",
+      "illustration_note": "さみしそうに森の中の空き地に一人座るココ。背景に小鳥やリスは遠くで様子を見守っている。",
+      "scene_summary": "心と体の影響がココの行動と関係に表れる。",
+      "must_have": [
+        "ココの丸い顔と表情",
+        "遠くで見守る森の友だち"
+      ],
+      "camera": "やや遠くから広い森の一部を見せる構図",
+      "image_prompt_api": "small cream-colored rabbit sitting alone in soft forest clearing, distant animals watching, gentle pastel watercolor style",
+      "image_prompt_sd": "rabbit alone in gentle forest clearing, soft pastel colors, warm light, sad but hopeful mood",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, dark or frightening elements"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "すると、森の友だちがやさしく声をかけました。「ココ、大丈夫だよ。いっしょに歩いてみよう？」",
+      "reader_question": "友だちがそばにいてくれたら、どんな気持ちになる？",
+      "illustration_note": "小鳥とリスがココの周りに集まり、あたたかい表情で話しかけているところ。",
+      "scene_summary": "友だちの助けと励ましがココに届く。",
+      "must_have": [
+        "ココのポシェット",
+        "友だちの小鳥とリス"
+      ],
+      "camera": "やや上から見て3キャラクターの顔がよくわかる構図",
+      "image_prompt_api": "small cream-colored rabbit talking with gentle bird and squirrel in pastel colored forest, warm friendly light",
+      "image_prompt_sd": "rabbit surrounded by bird and squirrel friends, soft watercolor pastel, warm forest atmosphere",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, unfriendly or scary"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは小さな決心をして、友だちといっしょに森へ歩き出しました。「できないことじゃないかも」と思えてきました。",
+      "reader_question": "新しいことを始めるってどんな気持ち？",
+      "illustration_note": "明るい森の道をココと友だちが歩きだす様子。ココは少し笑顔。",
+      "scene_summary": "決意と新しい旅立ちの始まり。",
+      "must_have": [
+        "黄色いフードのマント",
+        "赤いブーツが歩いている様子"
+      ],
+      "camera": "斜め後ろからの追いかける構図",
+      "image_prompt_api": "small cream-colored rabbit walking with bird and squirrel friends on warm forest path, soft pastel colors, hopeful expression",
+      "image_prompt_sd": "rabbit walking with friends on gentle forest path, watercolor pastel, warm light, hopeful mood",
+      "negative_prompt_sd": "low quality, inconsistent character design, dark or gloomy"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "また『いくなむし』があらわれて、ココを止めようとしました。でもココはお守りをしっかり握りしめて、「負けないよ」と心でさけびました。",
+      "reader_question": "つらいとき、じぶんを支えるものはなにかな？",
+      "illustration_note": "小さな黒い虫がココに近づくも、ココは青いポシェットから光るお守りを握りしめているシーン。",
+      "scene_summary": "問題との葛藤と内なる強さの表現。",
+      "must_have": [
+        "青いポシェットのお守り",
+        "ココの決意の強い表情"
+      ],
+      "camera": "アップでココの手元と顔の表情を中心に",
+      "image_prompt_api": "small cream-colored rabbit holding glowing charm in blue satchel, small dark bug nearby, soft pastel forest",
+      "image_prompt_sd": "rabbit holding glowing charm with determined look, dark bug near, watercolor pastel, gentle forest background",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, scary or violent atmosphere"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "ココは小さな風のおまじないをそっととなえました。すると『いくなむし』はふわりと遠くへ飛び去りました。",
+      "reader_question": "あたらしい力を手に入れるってどんな感じ？",
+      "illustration_note": "ココが手を空にかざし、優しい風が森に吹いて『いくなむし』が飛び去る幻想的な場面。",
+      "scene_summary": "新しい魔法の力と希望の誕生。",
+      "must_have": [
+        "ココの黄色いフードと青いポシェット",
+        "風がささやく森の木々"
+      ],
+      "camera": "遠目でココの全身と風の動きを感じさせる構図",
+      "image_prompt_api": "small cream-colored rabbit casting gentle wind spell in pastel forest, small dark bug flying away, soft warm light",
+      "image_prompt_sd": "rabbit raising hand with soft wind blowing away dark small bug, watercolor pastel warm forest",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dark or threatening"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "ココはついに『いくなむし』と向き合いました。「もう負けない」と言うと、虫はすーっと消えていきました。ココは自分を『森のみんなのやさしいひかり』と呼びました。",
+      "reader_question": "自分をもっと好きになるにはどんなことができる？",
+      "illustration_note": "ココが自信にあふれた笑顔で立ち、『いくなむし』が光に溶けて消える情景。",
+      "scene_summary": "勝利と新しい自己認識の成立。",
+      "must_have": [
+        "ココの穏やかな表情",
+        "消えていくいくなむしの光の粒子"
+      ],
+      "camera": "正面から自信に満ちた姿を捉える構図",
+      "image_prompt_api": "confident small cream-colored rabbit standing bright forest with fading dark bug disappearing, soft pastel colors",
+      "image_prompt_sd": "rabbit smiling confidently with light particles fading dark bug, watercolor pastel style, warm forest light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dark or violent"
+    },
+    {
+      "page": 10,
+      "propp_functions": [
+        "K"
+      ],
+      "text": "これからもココは森で友だちと笑いながら、やりがいある毎日を大切にしていきます。新しい光がずっと続いていきました。",
+      "reader_question": "新しい気持ちで毎日を過ごすコツは何だろう？",
+      "illustration_note": "明るい森で友だちと手をつなぎ、笑顔のココ。温かな光が森全体を包む。",
+      "scene_summary": "明るく希望に満ちた未来へのほほえみ。",
+      "must_have": [
+        "ココと友だちの笑顔",
+        "あたたかな森の光"
+      ],
+      "camera": "広角で森の中の幸福な集いを捉えた構図",
+      "image_prompt_api": "happy small cream-colored rabbit holding hands with friends in bright pastel forest, warm sunlight",
+      "image_prompt_sd": "rabbit and friends smiling in bright gentle forest, soft watercolor pastel, warm light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, dark or sad atmosphere"
+    }
+  ]
+}

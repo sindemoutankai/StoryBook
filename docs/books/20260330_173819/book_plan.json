@@ -1,0 +1,298 @@
+{
+  "title": "ココとうずまきモヤモヤの森",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "ココは小さな村で毎日のことをがんばっているが、うまくいかないことが続いて息がつまる感じになっている。",
+    "dominant_story": "うまくいかない気持ちが『うずまきモヤモヤ』という名前の存在となり、心や体にふわふわと重くのしかかる。",
+    "externalized_problem_name": "うずまきモヤモヤ",
+    "problem_message": "「努力してもむだだよ」「ごはんもうまく食べられないよ」とココの心にささやく。",
+    "hidden_values": [
+      "自分の温かさを大切にしたい",
+      "安心してまた歩きたい"
+    ],
+    "resources": [
+      "よく見守ってくれる森の仲間たち",
+      "小さな青いサッチェルに入れたおまじないのしるし"
+    ],
+    "small_experiment_metaphor": "夜空の星のかけらのような小さな光る石",
+    "new_identity_title": "モヤモヤと向き合う勇気うさぎ・ココ"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココは毎日をがんばっているけれど、うまくいかなくて心の中に小さなモヤモヤを感じている。",
+      "narrative_link": "何かが足りなくて、心がもやもやする始まり。",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "ココは「がんばらなきゃ」と自分に言い聞かせるけれど、心はどんどん重くなってしまい、楽しい気持ちを忘れそうになる。",
+      "narrative_link": "自分への厳しい気持ちが、自由を奪うように感じられる。",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反・巻き込まれ",
+      "story_event": "うずまきモヤモヤはココの体にふわふわと重くのしかかり、だんだんごはんも食べにくくなってしまった。",
+      "narrative_link": "問題の影響が体にもあらわれはじめる。",
+      "page": 3
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "ココはモヤモヤに押されて、遊びたいという気持ちもどこかに隠れてしまい、友達とも距離を感じている。",
+      "narrative_link": "心と体の変化が行動や関係にも波及する。",
+      "page": 4
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "森の仲間がそっとココに気づき、何かを伝えようと寄り添い、ココはその優しさに気づく。",
+      "narrative_link": "助けを感じて、気持ちの変化が生まれ始める。",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意・出発",
+      "story_event": "ココは小さな青いサッチェルの中に、おまじないの星のかけらをしまい、モヤモヤと向き合う決心をした。",
+      "narrative_link": "新しい旅立ちと心の準備。",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練",
+      "story_event": "うずまきモヤモヤはココに「もう無理だよ」と何度もささやくけれど、ココは小さな光を思い出してふんばる。",
+      "narrative_link": "問題の誘惑とそれに抗う資源の描写。",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "ココは夜空の星のかけらの光を見つめて、それを心で感じる小さなおまじないとして持ち続けた。",
+      "narrative_link": "新しい力や希望の獲得。",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決",
+      "story_event": "モヤモヤとの最後のやさしい戦い。ココは星のかけらの光を胸に、モヤモヤのささやきを静かにそっと消していく。",
+      "narrative_link": "決定的な心の変化と勝利。",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消・帰還・認知・変身・報酬",
+      "story_event": "モヤモヤは消えて、ココは森の仲間たちと笑いあいながら、明るい未来へゆっくり歩きだす。もう大丈夫、と感じている。",
+      "narrative_link": "穏やかな回復と新しい自己の受容。",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "小さなクリーム色のうさぎ。黄色いフード付きクロークと茶色いショートパンツを着て、赤いブーツと青いサッチェルを持つ。心やさしく、がんばり屋。",
+      "role": "protagonist"
+    },
+    {
+      "name": "うずまきモヤモヤ",
+      "description": "ふわふわした煙のような存在。ココの心に重くのしかかり、彼女を悲しくさせる。声はささやくようで、ココの気持ちを揺らす。",
+      "role": "problem"
+    },
+    {
+      "name": "森の仲間たち",
+      "description": "ココを見守り、さりげなく励ます動物たち。あたたかく優しい友だちのような存在。",
+      "role": "helper"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "ココは小さなうさぎ。毎日がんばっているけど、こころのどこかに小さなモヤモヤが広がっていました。",
+      "reader_question": "みんなはどんな時にモヤモヤしたことがある？",
+      "illustration_note": "ココが村の森の入り口で少しうつむきながら立っている。背景はやわらかい緑と水彩風の森。",
+      "scene_summary": "主人公ココの紹介と、心に生まれた問題の芽。",
+      "must_have": [
+        "ココの黄色いフード付きクローク",
+        "森の浅い緑背景"
+      ],
+      "camera": "中距離、やさしくココの様子に寄る角度",
+      "image_prompt_api": "small cream-colored rabbit wearing a yellow hooded cloak standing quietly at soft green forest edge, watercolor style, gentle pastel colors, warm light",
+      "image_prompt_sd": "small rabbit in yellow cloak at forest edge, soft shadows, gentle pastel watercolor, hopeful but slightly sad expression",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ",
+        "δ"
+      ],
+      "text": "「がんばらなきゃ」とココは自分にいいきかせるけれど、なかなか気持ちは軽くならず、だんだん重くなってしまいました。",
+      "reader_question": "ココはどんな気持ちでがんばっているのかな？",
+      "illustration_note": "ココが拳を小さく握りしめている表情。背景にふわふわとうずまきモヤモヤの影が見える。",
+      "scene_summary": "ココの心の葛藤と問題の影響のはじまり。",
+      "must_have": [
+        "ココの丸い顔とフード",
+        "うずまきモヤモヤの薄い霧状の影"
+      ],
+      "camera": "クローズアップでココの顔の表情を強調",
+      "image_prompt_api": "small cream-colored rabbit with yellow cloak, clenching fist, faint swirling mist around, watercolor pastel style, emotional tension",
+      "image_prompt_sd": "close-up of small rabbit face with determined but heavy expression, swirly mist nearby, soft pastel watercolor lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "そのふわふわのうずまきモヤモヤはココの体にも伝わって、ふだんのごはんが食べられなくなってしまいました。",
+      "reader_question": "みんなはいやな気分のときに何か変わったことはあった？",
+      "illustration_note": "ココが小さな皿の前でうつむき、ごはんに手をのばせず、背後にうずまきモヤモヤの陰影が漂う。",
+      "scene_summary": "問題が身体にも影響してきた描写。",
+      "must_have": [
+        "ココの青いサッチェル",
+        "空の皿とモヤモヤの影"
+      ],
+      "camera": "少し上から、ココのしぐさが見える構図",
+      "image_prompt_api": "small cream-colored rabbit looking down at empty plate, yellow cloak, swirling mist around body, soft watercolor pastel",
+      "image_prompt_sd": "rabbit sitting sadly before empty plate, gentle swirls of mist looming soft pastel colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 4,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "モヤモヤはココのたのしい遊びや友だちとの時間もこわし、ココはどこかさみしそうに見えました。",
+      "reader_question": "ココは友だちとどうなっているのかな？",
+      "illustration_note": "ココが木の陰からこそこそ友だちを見つめる様子。背景は森の柔らかい光と影。",
+      "scene_summary": "心や行動、関係性での問題の広がり。",
+      "must_have": [
+        "ココの赤いブーツ",
+        "木漏れ日の森"
+      ],
+      "camera": "引きの構図でココと遠くの友だちを対比的に描く",
+      "image_prompt_api": "small cream-colored rabbit peeking from behind a tree, yellow cloak, forest light and shadows,friend group in distance, watercolor pastel",
+      "image_prompt_sd": "rabbit hiding shyly behind tree watching friends, warm pastel forest lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "森の仲間たちはココにそっと近づき、声をかけました。「ひとりじゃないよ」と、やさしく寄り添います。",
+      "reader_question": "みんなは困った時に誰にささえられた？",
+      "illustration_note": "何匹かの森の動物たちがココを囲み、笑顔で優しく見守っている様子。",
+      "scene_summary": "助けや支えを感じる場面。",
+      "must_have": [
+        "ココの小さな青いサッチェル",
+        "親しみやすい森の仲間たち"
+      ],
+      "camera": "やや上から俯瞰気味に温かい集まりを描く",
+      "image_prompt_api": "small rabbit with yellow cloak surrounded by friendly forest animals, comforting scene, pastel watercolor, warm light",
+      "image_prompt_sd": "group of gentle animals surrounding rabbit with kind smiles, soft pastel forest atmosphere",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは小さなサッチェルに星のかけらを入れて、モヤモヤに向き合う決意をしました。新しい旅のはじまりです。",
+      "reader_question": "ココの新しい旅ってどんなものかな？",
+      "illustration_note": "ココが青いサッチェルを抱え、夜空を見上げている様子。背景にはきらめく星空。",
+      "scene_summary": "決心と出発の瞬間。",
+      "must_have": [
+        "星のかけらが光るサッチェル",
+        "夜空と静かな森"
+      ],
+      "camera": "ココの背中越しに星空を広く捉える構図",
+      "image_prompt_api": "small rabbit with yellow cloak holding blue satchel glowing softly under starry night sky, watercolor pastel style",
+      "image_prompt_sd": "rabbit looking up at sparkling stars with glowing satchel, peaceful night pastel forest",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "うずまきモヤモヤは「あきらめて」とささやくけれど、ココは星のかけらの光を思い出し、ふんばってがんばりました。",
+      "reader_question": "みんなはつらいときどうやってがんばった？",
+      "illustration_note": "モヤモヤが霧のかたまりとなってココにささやいている、ココは目をつぶり強く星の光をイメージしている。",
+      "scene_summary": "試練と内面の葛藤、資源の心象メタファー。",
+      "must_have": [
+        "うずまきモヤモヤの霧",
+        "ココのキュッと閉じた目と青いサッチェル"
+      ],
+      "camera": "ココの顔に寄り、対峙するモヤモヤの影を背景に入れる",
+      "image_prompt_api": "small rabbit eyes closed holding glowing satchel, swirling mist whispering around, pastel watercolor soft light",
+      "image_prompt_sd": "rabbit facing swirling mist with determined expression, gentle pastel colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "ココは星のかけらの光をおまじないにして、心に灯し続けました。モヤモヤは少しずつ弱くなっていきました。",
+      "reader_question": "おまじないや心の秘密道具があったら何にする？",
+      "illustration_note": "ココが星のかけらを手にし、小さな光を大切そうに見つめている。背景は優しい夜明けの森。",
+      "scene_summary": "新たな力の獲得と希望。",
+      "must_have": [
+        "光る星のかけら",
+        "ココの穏やかな顔立ち"
+      ],
+      "camera": "手元の光にフォーカスしつつココの顔も映す",
+      "image_prompt_api": "small rabbit gently holding glowing star-like stone in hand, dawn forest background, pastel watercolor",
+      "image_prompt_sd": "rabbit gazing lovingly at small glowing stone, soft morning light pastel colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "最後にモヤモヤをそっとやわらげると、ココは「モヤモヤと向き合う勇気うさぎ」として輝きはじめました。",
+      "reader_question": "ココはどんなうさぎになったのかな？",
+      "illustration_note": "ココが心の中のうずまきモヤモヤに優しく向き合い、穏やかな笑顔で立っている。",
+      "scene_summary": "対決と勝利、新しい自己の出現。",
+      "must_have": [
+        "ココの自信に満ちた表情",
+        "薄く消えゆくモヤモヤの影"
+      ],
+      "camera": "正面から明るくココを捉え、背景に薄れるモヤモヤ",
+      "image_prompt_api": "small rabbit standing calmly with confident smile, fading swirling mist behind, pastel watercolor warm tones",
+      "image_prompt_sd": "rabbit facing disappearing mist with peaceful confident smile, pastel forest light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    },
+    {
+      "page": 10,
+      "propp_functions": [
+        "K"
+      ],
+      "text": "モヤモヤは消えて、ココは森の仲間と笑いあいながら、これからの毎日をゆっくり歩いていきます。もう大丈夫。",
+      "reader_question": "ココはこれからどんなことをしたいかな？",
+      "illustration_note": "ココが仲間と手をつないで森を歩く。明るい光に包まれ、未来が輝いている様子。",
+      "scene_summary": "問題の解消と安心できる明るい未来。",
+      "must_have": [
+        "みんなで笑顔のココ",
+        "明るい森の光と柔らかい空気感"
+      ],
+      "camera": "広角で森の中の温かな行進を捉える",
+      "image_prompt_api": "small rabbit holding hands with forest friends walking in bright warm forest light, cheerful pastel watercolor",
+      "image_prompt_sd": "group of smiling animals walking through sunny forest, warm pastel colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "title": "ココとうさぎ森のかげ",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "ココという小さなうさぎが、森の中でいつも感じる「こわいかげ」に悩まされている。",
+    "dominant_story": "コミュニケーションの不安から心がかたくなり、動けなくなる「まよいかげ」がココを追いかける。",
+    "externalized_problem_name": "まよいかげ",
+    "problem_message": "\"うまくできないから、さけたほうがいいよ\"とささやき、ココの心をふさいでしまう。",
+    "hidden_values": [
+      "自分を信じて進むこと",
+      "友だちとつながること"
+    ],
+    "resources": [
+      "やさしい森の友だち",
+      "小さな青いおまじないの袋"
+    ],
+    "small_experiment_metaphor": "ちいさなきらきらひかるしるし",
+    "new_identity_title": "ゆうきのうさぎココ"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココはいつも心に「まよいかげ」という怖い影を感じて、森の友だちと話すのがむずかしい。",
+      "narrative_link": "不安という影の存在が、ココの前に立ちはだかる。",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "まよいかげは「言わないほうがいい」とココに言い、心をしめつけてしまう。",
+      "narrative_link": "まよいかげの否定的な声がココを閉じ込める。",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反/巻き込まれ",
+      "story_event": "でもココは友だちと仲良くしたい気持ちがまさり、まよいかげのしばりを破ろうとする。",
+      "narrative_link": "ココはまよいかげに背いて、小さなせいいっぱいの一歩を踏み出す。",
+      "page": 2
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "まよいかげはココの勇気をかきけし、心の中をざわつかせる。",
+      "narrative_link": "心のざわざわがココの動きをゆるめる。",
+      "page": 3
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "ある日、森の友だちがココに「大丈夫、怖くないよ」とそっと寄りそってくれる。",
+      "narrative_link": "あたたかい励ましがココの心をゆるめる。",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意",
+      "story_event": "ココは「もう一度、まよいかげに負けずに進んでみよう」と決める。",
+      "narrative_link": "勇気をふりしぼり新しい出発の気持ちが生まれる。",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練",
+      "story_event": "まよいかげがまたあらわれるが、ココは小さな青いおまじないの袋を握りしめる。",
+      "narrative_link": "小さな希望がココを支える。",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "ココはしるしを使い、心の迷いをふきとばす小さなきらきらひかるしるしを見つける。",
+      "narrative_link": "新しい力を手に入れたココは自信を増していく。",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決",
+      "story_event": "まよいかげとしっかり向き合い、しるしの力でやさしく追いだすことに成功する。",
+      "narrative_link": "恐れに勝ち、自分の心を守る。",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消",
+      "story_event": "森の中で友だちと笑い合い、新しい自分「ゆうきのうさぎココ」として毎日を楽しんでいる。",
+      "narrative_link": "安心できる明るい未来が待っている。",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "やわらかいクリーム色の毛の小さなうさぎ。黄色いフードのマントと赤いくつ、青いポシェットを持つ。",
+      "role": "protagonist"
+    },
+    {
+      "name": "まよいかげ",
+      "description": "薄暗くゆらゆら揺れる影のような存在。ココの心に怖さや不安をささやく。",
+      "role": "problem"
+    },
+    {
+      "name": "森の友だち",
+      "description": "あたたかくてやさしいうさぎやりす、ふくろうたち。ココを励ます。",
+      "role": "helper"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "小さなうさぎのココは、森の中でなんだかこわい影を感じていました。その影は「まよいかげ」と呼ばれ、いつもココの心をふさいでしまいます。",
+      "reader_question": "みんなは怖い影を見たことがありますか？どんなときに感じますか？",
+      "illustration_note": "クリーム色の小さなうさぎココが、やわらかな黄色のフードマントを着て、薄暗い森でゆらめくこわい影に囲まれている様子。",
+      "scene_summary": "森の中でまよいかげの影に悩むココ。",
+      "must_have": [
+        "ココのクリーム色の毛",
+        "黄色いフード付きマント"
+      ],
+      "camera": "やや見下ろしでココと影を捉える中景",
+      "image_prompt_api": "small cream-colored rabbit wearing yellow hooded cloak in soft watercolor forest, shadowy figure looming softly, pastel colors, warm gentle lighting, children's picture book style",
+      "image_prompt_sd": "small cream-colored rabbit with yellow cloak in gentle forest, dark timid shadow nearby, soft pastel watercolor style, warm light, clean outline, child-friendly",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, harsh lighting, photorealistic"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ",
+        "δ"
+      ],
+      "text": "まよいかげはココに「言わないほうがいいよ」とささやきます。でも、ココは友だちと仲よくしたい気持ちがあふれて、まよいかげの声をちょっとだけ無視しました。",
+      "reader_question": "怖い声に負けないようにするにはどうしたらいいかな？",
+      "illustration_note": "ココが小さな勇気を出して、黄色いマントをふわっとはためかせながらまよいかげの声に背を向ける様子。",
+      "scene_summary": "ココがまよいかげの否定的な声に抵抗する瞬間。",
+      "must_have": [
+        "ココの長い耳",
+        "まよいかげのゆらゆらした影"
+      ],
+      "camera": "横顔のアップ、ココの表情に注目",
+      "image_prompt_api": "small cream-colored rabbit turning away from dark shadow whispering, yellow cloak fluttering, gentle forest background, soft pastel watercolor, warm light",
+      "image_prompt_sd": "young rabbit in yellow cloak ignoring dark wavy shadow in forest, soft watercolor pastel, clean lines, warm lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, harsh shadows"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "でも、まよいかげはココの心の中でざわざわして、動きをゆるめてしまいます。ココはじっとしてしまい、怖さを感じました。",
+      "reader_question": "みんなは怖くて動けなくなったことはありますか？そのときどうした？",
+      "illustration_note": "ココがうつむいておどおどしながら森の中に座り込んでいる。まよいかげがそっと近づいている場面。",
+      "scene_summary": "まよいかげがココの心のざわざわを強める。",
+      "must_have": [
+        "ココの赤い小さなくつ",
+        "まよいかげの影の伸び"
+      ],
+      "camera": "俯瞰でココの動きをやんわり捉える",
+      "image_prompt_api": "small cream-colored rabbit sitting worried in pastel forest, dark shadow creeping close, soft warm lighting, watercolor children book style",
+      "image_prompt_sd": "timid rabbit with yellow cloak and red boots sitting in gentle forest shadow, subtle dark figure near, soft pastel style",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, overly dark harsh shadows"
+    },
+    {
+      "page": 4,
+      "propp_functions": [],
+      "text": "ココは胸がドキドキして、こわくなると足がすくみ、友だちと話すのが難しくなってしまいます。心もざわざわして、行動もゆっくりです。",
+      "reader_question": "緊張するとどんな気持ちや体の変化がありますか？",
+      "illustration_note": "ココの胸のあたりに小さな波紋が広がり、表情が少し困った顔。背後にまよいかげがうっすら映る。",
+      "scene_summary": "ココの心と体に影響を与えるまよいかげ。",
+      "must_have": [
+        "ココの丸い顔と茶色い大きな目",
+        "まよいかげのぼんやりした影"
+      ],
+      "camera": "アップでココの表情中心に",
+      "image_prompt_api": "close-up of small cream-colored rabbit with worried eyes, soft pastel background forest, faint dark shadow looming nearby, warm light watercolor style",
+      "image_prompt_sd": "young rabbit with round face and soft yellow cloak, worried expression, subtle shadow behind, soft pastel children book illustration",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, harsh lighting"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "ある日、森のやさしい友だちがココに言いました。「大丈夫、ぼくたちはいつもそばにいるよ」その言葉が、ココの心をあたためました。",
+      "reader_question": "友だちの言葉が心に届いたらどんな気持ちになる？",
+      "illustration_note": "森の友だちのうさぎやりす、ふくろうがココのまわりに集まり、にこにこ笑って励ます優しい場面。",
+      "scene_summary": "森の友だちがココを励まし支える。",
+      "must_have": [
+        "ココの青い小さなポシェット",
+        "友だちの笑顔"
+      ],
+      "camera": "集まる動物たちをやや引いた中景で",
+      "image_prompt_api": "small cream-colored rabbit surrounded by friendly forest animals smiling, warm pastel forest background, watercolor style, gentle lighting",
+      "image_prompt_sd": "young rabbit with blue satchel among smiling squirrels, owls, and rabbits in gentle forest, soft watercolor pastel colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, harsh shadows"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは心の中で決めました。「もうまよいかげに負けたくない！」そう思い、あたたかな森の道を歩きはじめました。",
+      "reader_question": "新しい一歩を踏み出すとき、どんな気持ちになるかな？",
+      "illustration_note": "黄色のフードマントをしっかりかぶったココが、朝日の差し込む森の小道を元気に歩き始める姿。",
+      "scene_summary": "ココの新しい決意と出発。",
+      "must_have": [
+        "ココの長いピンクの耳の内側",
+        "朝日の柔らかい光"
+      ],
+      "camera": "斜め前からの視点で歩き出す動きを強調",
+      "image_prompt_api": "small cream-colored rabbit in yellow hooded cloak walking energetically on sunlit forest path, soft pastel watercolor, warm morning light",
+      "image_prompt_sd": "young rabbit with pink inner ears starting walk on gentle forest trail, warm pastel tones, children's book style",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, overly dark shadows"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "でもまた、まよいかげがあらわれました。ココは小さな青いおまじないの袋をぎゅっと握りしめました。あたたかい気もちが広がるのを感じたのです。",
+      "reader_question": "困ったとき、どんなものが気持ちを助けてくれる？",
+      "illustration_note": "まよいかげが再び現れる中、ココが小さな青い袋をしっかり手に持ち、表情が少し強くなる様子。",
+      "scene_summary": "試練と支えの青いおまじないの袋。",
+      "must_have": [
+        "小さな青い袋",
+        "まよいかげの揺れる影"
+      ],
+      "camera": "ココの手元と表情に寄せたアップ",
+      "image_prompt_api": "small rabbit clutching small blue satchel facing wavering shadow figure, soft pastel forest background, warm watercolor light",
+      "image_prompt_sd": "young cream-colored rabbit holding blue pouch, looking bravely at dark shadow, gentle watercolor children's illustration",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, harsh lighting"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "ココはしるしを見つけました。ちいさなきらきらひかるしるし。それは心の迷いをやさしくときほぐす魔法のしるしでした。",
+      "reader_question": "みんなが心を落ち着けるために使う宝物は何ですか？",
+      "illustration_note": "ココの手のひらにちょっと光るきらきらのしるしが浮かび、やさしい光に包まれている場面。",
+      "scene_summary": "新しい力となるきらきらのしるしの発見。",
+      "must_have": [
+        "きらきら光る小さなしるし",
+        "ココのやさしい表情"
+      ],
+      "camera": "手のひらの光と顔を同時に捉えるアップ",
+      "image_prompt_api": "small rabbit holding sparkling glowing charm in palm, warm pastel forest background, soft watercolor light, gentle children's book style",
+      "image_prompt_sd": "young rabbit with gentle face holding shining charm, bright warm light, pastel colors, clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, overly dark shadows"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "ついにココはまよいかげと向き合いました。しるしの力で影をやさしく追いだし、心にゆうきを取りもどしました。ココは「ゆうきのうさぎ」と呼ばれたのです。",
+      "reader_question": "怖いものに立ち向かうとき、勇気はどうやって生まれると思う？",
+      "illustration_note": "ココが胸にきらきらひかるしるしをかざし、まよいかげが霧のように消えていく幻想的なシーン。",
+      "scene_summary": "決戦と勝利、そして新しい自分の誕生。",
+      "must_have": [
+        "輝くしるし",
+        "ココの決意のこもった目"
+      ],
+      "camera": "ドラマチックなローアングルでココの表情を強調",
+      "image_prompt_api": "small rabbit holding glowing charm confronting fading shadow, soft pastel forest, warm gentle light, victorious children's storybook style",
+      "image_prompt_sd": "brave young rabbit shining charm chasing away shadow, warm pastel watercolor, clean line art, hopeful mood",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, violent depiction"
+    },
+    {
+      "page": 10,
+      "propp_functions": [
+        "K"
+      ],
+      "text": "それからココは森で友だちと笑いあい、あんしんして自分らしく暮らしました。これからもずっと「ゆうきのうさぎココ」の時間はつづきます。",
+      "reader_question": "みんなも自分のゆうきを見つけたら、何をしたいですか？",
+      "illustration_note": "明るい森の中で、ココが友だちと元気に跳ねたり笑ったりしている幸せな場面。",
+      "scene_summary": "新しい未来、ゆうきのうさぎココの毎日。",
+      "must_have": [
+        "笑顔のココ",
+        "仲良しの森の友だち"
+      ],
+      "camera": "広角で楽しい森の風景を捉える",
+      "image_prompt_api": "happy small rabbit playing with forest friends in bright sunlit meadow, soft pastel watercolor style, warm lighting",
+      "image_prompt_sd": "joyful cream-colored rabbit with yellow cloak jumping with friends in sunny forest clearing, gentle pastel colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, dark or gloomy atmosphere"
+    }
+  ]
+}

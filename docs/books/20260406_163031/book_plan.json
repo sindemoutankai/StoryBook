@@ -1,0 +1,183 @@
+{
+  "title": "ココの小さなちから",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_picture_book",
+  "source_summary": {
+    "situation": "小さなうさぎのココは、最近ちょっとつかれていて、じぶんのちからに自信がもてない。",
+    "core_worry": "みんなとくらべてできないことがあって、じぶんはたいせつな役割をもっているのか不安。",
+    "felt_lack": "もっとおおきくてつよいどうぶつたちのなかで、自分があまりめだたないことがさみしい。",
+    "hidden_strength": "小さいからこそ見つけられるものや、やさしさがある。",
+    "helper_role": "やさしいふくろうが、ココの気もちをそっとうけとめてくれる。",
+    "final_realization": "じぶんの小さなちからが、みんなを支える大事な役割だったとわかる。"
+  },
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "10さいくらいの小さなうさぎ。やわらかいクリーム色の毛で、ながいうさみみ、黄色のフードつきマントを着ている。",
+      "role": "protagonist"
+    },
+    {
+      "name": "ふくろうさん",
+      "description": "知恵ふかいやさしいふくろう。森のことばをよく知っていて、ココの気もちを理解してくれる。",
+      "role": "helper"
+    },
+    {
+      "name": "ちいさなリスのトト",
+      "description": "おちつきないけど、ココににているところもある、さみしがりやのしんせき。",
+      "role": "other"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "text": "きいろいフードのちいさなうさぎ、ココ。みんながとびまわるなか、じぶんはとべなくて、ちょっとつかれているようす。",
+      "reader_question": "ココは なにをかんじているのかな？",
+      "illustration_note": "ココが森の草むらで座っている、すこしさびしそうな表情。やわらかい光がそっとあたる。",
+      "scene_summary": "主人公ココ紹介と、つかれたりんかくと悩みの始まり。",
+      "must_have": [
+        "ココ",
+        "黄色いマント"
+      ],
+      "camera": "中くらいのアップでココの表情を中心に",
+      "image_prompt_api": "small cream-colored rabbit wearing yellow hooded cloak sitting in gentle forest grass, soft watercolor style, warm lighting",
+      "image_prompt_sd": "small rabbit sitting quietly in forest, soft pastel colors, gentle sunlight, sad gentle expression",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 2,
+      "text": "森のみんなはすいすいとぶけれど、ココのとびかたはゆっくり。じぶんだけおそくて、みんなとちがうようにかんじる。",
+      "reader_question": "みんなとくらべてどうおもっているのかな？",
+      "illustration_note": "ココが空を見上げ、ほかのどうぶつたちが元気に飛びまわる様子を遠くに眺めている。",
+      "scene_summary": "みんなとくらべて自分の苦手さを感じ、くるしくなる場面。",
+      "must_have": [
+        "ココ",
+        "他の動物の飛ぶ姿"
+      ],
+      "camera": "広角で空とココの全身をとらえる視点",
+      "image_prompt_api": "small cream-colored rabbit looking up at animals flying swiftly in sky above a gentle forest, pastel watercolors",
+      "image_prompt_sd": "little rabbit gazing at sky with flying animals, soft colors, gentle atmosphere",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 3,
+      "text": "「わたしはなにをできるの？」ココは自分の力がちいさいことに不安を感じはじめた。",
+      "reader_question": "ココはどんなきもちかな？",
+      "illustration_note": "ココが小さな石の上に座り、うつむいて考えこんでいる様子。",
+      "scene_summary": "自分の役割や自信にたいする不安が強くなる場面。",
+      "must_have": [
+        "ココ",
+        "不安そうな表情"
+      ],
+      "camera": "こまかい表情をとらえるアップ",
+      "image_prompt_api": "small cream-colored rabbit sitting on stone, looking down thoughtfully, soft and warm pastel tones",
+      "image_prompt_sd": "rabbit with worried face sitting alone on stone, watercolor soft lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 4,
+      "text": "ふくろうさんがやさしく話しかけた。「ココ、なにかこまっているの？」ココは小さな声で気持ちをうちあけた。",
+      "reader_question": "ふくろうさんはどんなことを言うかな？",
+      "illustration_note": "大きなふくろうが木の枝にとまり、優しい目でココを見つめている場面。",
+      "scene_summary": "信頼できるふくろうに気持ちをはなして安心しはじめる。",
+      "must_have": [
+        "ココ",
+        "ふくろう"
+      ],
+      "camera": "ココとふくろうのふたりの対話を中くらいの距離で",
+      "image_prompt_api": "small cream-colored rabbit talking gently with wise owl perched on branch in warm forest evening light",
+      "image_prompt_sd": "rabbit and owl having soft conversation, gentle warm colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 5,
+      "text": "ふくろうさんはゆっくりこえをかけて、「だいじょうぶ、ココ。ちいさいことにも、すてきな意味があるよ」と言った。",
+      "reader_question": "ココはその言葉をどう思ったかな？",
+      "illustration_note": "ふくろうが羽をゆったり広げて、ココにやさしく語りかけている。",
+      "scene_summary": "悩みを受けとめるふくろうのやさしい言葉。",
+      "must_have": [
+        "ココ",
+        "ふくろうの羽"
+      ],
+      "camera": "ふたりの表情を包み込むようなふんわりした画角",
+      "image_prompt_api": "wise owl spreading wings gently while speaking to small cream-colored rabbit, soft pastel forest background",
+      "image_prompt_sd": "owl with open wings gently talking to small rabbit, warm lighting, soft colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 6,
+      "text": "「ゆっくりでも、きみのゆうきややさしさは、みんなを支えているんだよ。」ふくろうさんのことばが、ココのこころにひびいた。",
+      "reader_question": "ココはこの言葉を聞いてどう感じるかな？",
+      "illustration_note": "ココがふくろうの言葉を受けて、ほほえみをうかべはじめる。",
+      "scene_summary": "弱さのなかにある価値をそっと示される場面。",
+      "must_have": [
+        "ココ",
+        "ふくろう"
+      ],
+      "camera": "ココの顔のアップ、ふくろうは背後に少し見える程度",
+      "image_prompt_api": "small cream-colored rabbit smiling softly hearing wise owl in soft forest light, warm pastel colors",
+      "image_prompt_sd": "rabbit starting to smile gently, owl watching softly",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 7,
+      "text": "ある日、ココと似ているちいさなリスのトトがやってきて、「ぼくもなかなかうまくできないよ」とさけんだ。",
+      "reader_question": "トトはどんなきもちかな？",
+      "illustration_note": "小さなリスが木の根もとでココに向かって話しかけている。",
+      "scene_summary": "同じ悩みを持つちいさな仲間の登場。",
+      "must_have": [
+        "ココ",
+        "リスのトト"
+      ],
+      "camera": "二匹の動物を横から見た構図",
+      "image_prompt_api": "small cream-colored rabbit listening to little squirrel speaking in gentle forest setting, watercolor soft tones",
+      "image_prompt_sd": "rabbit and small squirrel talking under tree roots, soft light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 8,
+      "text": "ココはやさしく言った。「だいじょうぶ、トト。ゆっくりでも、きみのちからはみんなを明るくするよ。」",
+      "reader_question": "ココはどんな気もちでトトに言ったかな？",
+      "illustration_note": "ココがリスのトトにそっと手（前足）をのせて優しく話している。",
+      "scene_summary": "ココが年下の仲間にやさしい言葉を渡す。",
+      "must_have": [
+        "ココ",
+        "トト"
+      ],
+      "camera": "ふたりの表情を見やすく正面から",
+      "image_prompt_api": "small cream-colored rabbit comforting little squirrel with gentle touch in warm forest light",
+      "image_prompt_sd": "rabbit gently touching squirrel and smiling softly",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 9,
+      "text": "ココはふと思った。「じぶんのゆっくりさが、みんなをやさしくつなげるちからなんだ。」",
+      "reader_question": "ココはどんなことにきづいたのかな？",
+      "illustration_note": "ココが空を見上げて、すこし誇らしげな顔をしている。",
+      "scene_summary": "自分の役割と強みに気づく場面。",
+      "must_have": [
+        "ココ"
+      ],
+      "camera": "上からの見下ろし気味の視点でココの顔に光があたる",
+      "image_prompt_api": "small cream-colored rabbit looking up at sky with soft smile and warm sunlight, pastel illustration",
+      "image_prompt_sd": "rabbit smiling softly looking at bright sky, warm gentle light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    },
+    {
+      "page": 10,
+      "text": "あさのひかりが森をやさしくぬくもりでつつんだ。ココはちいさなちからを胸に、明るい未来へゆっくりあるきはじめた。",
+      "reader_question": "ココのこれからはどうなるかな？",
+      "illustration_note": "朝日の中、明るい森の道を元気に歩くココの後ろ姿。",
+      "scene_summary": "希望と安心に満ちた、ささやかで明るい未来描写で終わる。",
+      "must_have": [
+        "ココ",
+        "明るい森"
+      ],
+      "camera": "背中越しの広めの景色、優しい朝日の光",
+      "image_prompt_api": "small cream-colored rabbit walking down sunny forest path in soft morning light, warm pastel colors",
+      "image_prompt_sd": "rabbit walking forward in bright gentle forest morning, soft and warm lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, text, watermark"
+    }
+  ]
+}

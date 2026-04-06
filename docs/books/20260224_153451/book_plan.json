@@ -1,0 +1,306 @@
+{
+  "title": "ココとうごくいき虫のもんだい",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "10歳のうさぎココは毎日がうまくいかず、体も心も重たく感じている。",
+    "dominant_story": "ココの中に『いくな虫』という小さな存在がいて、ココに“もうやらないで”と伝えている。",
+    "externalized_problem_name": "いくな虫",
+    "problem_message": "「もういかなくていいよ」とココに伝え、やりたいことや誰かのためになる気持ちを閉じ込めようとしている。",
+    "hidden_values": [
+      "やりがいのあることをしたい",
+      "誰かのために役立ちたい"
+    ],
+    "resources": [
+      "ふわふわとした友だちとの優しい時間",
+      "青いほしのしおり（小さなお守り）"
+    ],
+    "small_experiment_metaphor": "青いほしのしおりのおまじない",
+    "new_identity_title": "みんなのためのあかるいみちびきうさぎ"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココは毎日がむずかしくて、心が重く体もだるく感じている。",
+      "narrative_link": "主人公の心身に欠如や不安があることを示す。",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "ココの中に“いくな虫”が現れ、「もうどこにもいかないで」と言っている。",
+      "narrative_link": "問題の最初の拘束や影響を描く。",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反／巻き込まれ",
+      "story_event": "ココは「やりたかったこと」や「誰かのためになること」が遠ざかり始める。",
+      "narrative_link": "問題がココの望みを阻む。",
+      "page": 2
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "いくな虫が体や心を重くし、ココが動きたくなくなる。",
+      "narrative_link": "問題が主人公に直接苦しみをもたらす。",
+      "page": 3
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "友だちのふわふわした小鳥がココに気づき、助けを求める魔法の話をささやく。",
+      "narrative_link": "助けの手と課題が届く。",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意",
+      "story_event": "ココは青いほしのしおりを握りしめ、前に進もうと決心する。",
+      "narrative_link": "主人公の変化の始まり。",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練",
+      "story_event": "いくな虫がまた出てきて、ココに「むりだよ」と言うも、青いしおりのおかげで心が少し強くなる。",
+      "narrative_link": "対決にむけた葛藤や反応の描写。",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "ココは青いほしのしおりのおまじないを使いはじめる。",
+      "narrative_link": "新しい力を得て、変化の準備が整う。",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決",
+      "story_event": "ココは勇気を持って、いくな虫に「もう支配させないよ！」と言い返す。",
+      "narrative_link": "問題との直接対決。",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消",
+      "story_event": "いくな虫は姿を消し、ココは自由になった。青いほしのしおりを大切に、みんなのために明るい道を進んでいく。",
+      "narrative_link": "問題の消失、主人公の成長と明るい未来。",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "10歳くらいの小さなクリーム色のうさぎ。優しい表情で黄色いフード付きマントと赤いブーツを履いている。",
+      "role": "protagonist"
+    },
+    {
+      "name": "いくな虫",
+      "description": "小さくて暗い影のような虫の姿。ココの心に「いかないで」と囁く存在。",
+      "role": "problem"
+    },
+    {
+      "name": "ふわふわ小鳥",
+      "description": "柔らかい羽の小さな鳥。ココの友だちで、魔法の青いほしのしおりをそっと渡す。",
+      "role": "helper"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "ココは毎日がうまくいかず、心もからだも重く感じていました。なんだか、動くのもつらいのです。",
+      "reader_question": "みんなはつらいとき、どんな気もちになるかな？",
+      "illustration_note": "クリーム色のうさぎココがゆっくりと森の小道に座っている。やわらかい光が差し込む朝の風景。",
+      "scene_summary": "ココの心身の重さと、静かな森の様子を描く。",
+      "must_have": [
+        "クリーム色のうさぎココ",
+        "森の小道",
+        "朝のやわらかい光"
+      ],
+      "camera": "やや上からの遠景で、ココの表情が見える構図",
+      "image_prompt_api": "small cream-colored rabbit sitting slowly on a forest path under soft morning light, gentle watercolor, pastel children’s book style",
+      "image_prompt_sd": "small cream-colored rabbit looking tired sitting on soft forest path with gentle morning light, soft watercolor, pastel colors, clean lines, warm and gentle atmosphere",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, harsh shadows"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ",
+        "δ"
+      ],
+      "text": "ある日、ココの心に「もうどこにもいくな」と言う小さな黒い虫、『いくな虫』が現れました。やりたいことが遠ざかります。",
+      "reader_question": "こころの中に小さな声が聞こえたらどうする？",
+      "illustration_note": "ココの胸のあたりに小さな黒い虫“いくな虫”が飛び回り、ココは戸惑っている顔。",
+      "scene_summary": "いくな虫の登場とココの迷い。",
+      "must_have": [
+        "ココの黄色いマント",
+        "黒い小さないくな虫",
+        "ココの戸惑いの表情"
+      ],
+      "camera": "ココの顔のアップと虫を捉えた構図",
+      "image_prompt_api": "small cream-colored rabbit wearing yellow hooded cloak with small black bug flying near chest, confused expression, soft watercolor, pastel",
+      "image_prompt_sd": "small cream-colored rabbit with yellow cloak looking puzzled at small dark insect on chest, soft pastel colors, children’s picture book style, clean lines",
+      "negative_prompt_sd": "extra limbs, low quality, bad anatomy, inconsistent lighting"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "いくな虫はココの体をずっしり重くし、心をしずませました。ココは外に出たくなくなってしまいます。",
+      "reader_question": "からだが重いとき、どうやって気もちを軽くできるかな？",
+      "illustration_note": "ココが座ってがっかりしている様子。背中に小さないくな虫が止まっている。",
+      "scene_summary": "いくな虫によるココへの苦しみの開始。",
+      "must_have": [
+        "ココの赤いブーツ",
+        "いくな虫の黒い体",
+        "ココの落ち込んだ姿勢"
+      ],
+      "camera": "低い位置からココを見上げる構図",
+      "image_prompt_api": "small cream-colored rabbit sitting sadly with small dark bug on back, feeling heavy, soft watercolor children’s book style",
+      "image_prompt_sd": "sad small cream-colored rabbit with yellow cloak sitting with black insect on back, soft pastel colors, gentle light, clean outlines",
+      "negative_prompt_sd": "low quality, distorted anatomy, extra limbs, harsh lighting"
+    },
+    {
+      "page": 4,
+      "propp_functions": [],
+      "text": "ココの体は重たくて動きにくい。心はふさぎ、友だちとも離れてしまいそうです。でも、どこかで誰かのためになりたいと思っています。",
+      "reader_question": "つらいときはどんなことを思い出す？",
+      "illustration_note": "ココの周りに少し距離を置いた友だちが心配そうに見ている様子とココのうつむいた姿。",
+      "scene_summary": "ココの心身の影響と関係の変化。",
+      "must_have": [
+        "心配そうなふわふわ小鳥",
+        "ココの表情が下向き",
+        "森の静かな場所"
+      ],
+      "camera": "横からの中距離で、距離感を見せる",
+      "image_prompt_api": "small sad cream-colored rabbit with worried fluffy bird friend watching from distance, soft watercolor children’s picture book style",
+      "image_prompt_sd": "soft pastel illustration of tired rabbit with yellow cloak being watched by concerned small bird at gentle forest scene",
+      "negative_prompt_sd": "low quality, blurry, extra limbs, inconsistent character"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "友だちのふわふわ小鳥が青い星のしおりをそっとココに渡し、「これを使ってみて」とささやきました。",
+      "reader_question": "だれかからのプレゼントが励ますこと、ある？",
+      "illustration_note": "小鳥が青い光るしおりをココにそっと手渡す優しい場面。",
+      "scene_summary": "助けの手が現れ、課題が届けられる。",
+      "must_have": [
+        "青い星のしおり",
+        "ココの小さな青いカバン",
+        "優しい小鳥の表情"
+      ],
+      "camera": "アップでしおりと二人の表情を中心に",
+      "image_prompt_api": "small cream-colored rabbit receiving glowing blue star-shaped charm from fluffy bird friend, soft gentle watercolor style",
+      "image_prompt_sd": "heartwarming scene of rabbit with yellow cloak accepting glowing blue star charm from soft fluffy bird, pastel colors, clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは青いほしのしおりを握りしめ、ゆっくりでも一歩を踏み出すことを決めました。森の奥へ進みます。",
+      "reader_question": "小さな一歩を踏み出すとき、どんな気もちかな？",
+      "illustration_note": "黄色いマントをはおり、青いしおりを握って森の道を歩き出すココ。",
+      "scene_summary": "決意と冒険の始まり。",
+      "must_have": [
+        "ココの黄色いマント",
+        "青い星のしおり",
+        "森の緑豊かな小道"
+      ],
+      "camera": "背中越しの中距離で、前方に向かう姿",
+      "image_prompt_api": "small cream-colored rabbit with yellow cloak holding blue star charm walking into forest path, hopeful expression, soft watercolor style",
+      "image_prompt_sd": "pastel illustration of rabbit walking confidently on forest path holding glowing blue charm, warm gentle light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "いくな虫がまた現れて「むりだよ」とささやくけれど、ココは青いしおりのおまじないで少し強くなりました。",
+      "reader_question": "こわい気もちが来たら、どうやって自分を助ける？",
+      "illustration_note": "いくな虫がココの前に現れて囁くが、ココはしっかりと青いしおりを握っている。",
+      "scene_summary": "試練の前に主人公が少し成長。",
+      "must_have": [
+        "いくな虫の影",
+        "青い星のしおり",
+        "ココの決意の表情"
+      ],
+      "camera": "対面の見える構図で緊張感を表現",
+      "image_prompt_api": "small cream-colored rabbit holding glowing blue charm confidently facing small dark insect whispering, soft pastel children’s book style",
+      "image_prompt_sd": "storybook style illustration of brave rabbit with yellow cloak holding blue charm facing black insect, warm light, clean outlines",
+      "negative_prompt_sd": "extra limbs, low quality, harsh shadows"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "ココは青いほしのしおりのおまじないを唱えると、心にあたたかい光が広がりました。少しずつちからがわいてきます。",
+      "reader_question": "おまじないや印はどんなふうに気もちを変えるかな？",
+      "illustration_note": "青いほしのしおりが輝いて、ココのまわりにあたたかい光が広がる幻想的なシーン。",
+      "scene_summary": "新しい魔法の力の獲得。",
+      "must_have": [
+        "輝く青い星のしおり",
+        "ココの明るい表情",
+        "温かい光の表現"
+      ],
+      "camera": "ココの顔のアップと光の広がり",
+      "image_prompt_api": "small cream-colored rabbit holding glowing blue star charm with warm glowing light spreading around, pastel colors, children’s book style",
+      "image_prompt_sd": "soft watercolor illustration of glowing blue charm emitting warm light around hopeful rabbit, clean outlines, gentle colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent light"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "「もうあなたに負けない！」ココは勇気を出していくな虫に立ち向かい、ついに心の重さが消えました。",
+      "reader_question": "勇気を出した瞬間、どんなキモチになる？",
+      "illustration_note": "勇ましく立つココの前からいくな虫が消えて光がさしている場面。",
+      "scene_summary": "問題の直接対決と勝利。",
+      "must_have": [
+        "ココの決然とした表情",
+        "消えてゆくいくな虫",
+        "明るい光"
+      ],
+      "camera": "ココの正面からのアップ、いくな虫が薄れる様子",
+      "image_prompt_api": "brave small cream-colored rabbit confronting disappearing dark insect with bright light behind, soft pastel children’s book style",
+      "image_prompt_sd": "storybook illustration of courageous rabbit facing fading shadow insect, warm bright glow, clean lines",
+      "negative_prompt_sd": "extra limbs, low quality, harsh kontrast"
+    },
+    {
+      "page": 10,
+      "propp_functions": [
+        "K"
+      ],
+      "text": "いくな虫は消えて、ココは自由になりました。青いほしのしおりを大切に、みんなのために明るい道を歩いていきます。",
+      "reader_question": "これからココはどんなウサギになったかな？",
+      "illustration_note": "明るい森の道を元気に歩くココ。青いしおりが輝き、友だちが笑顔で見守っている。",
+      "scene_summary": "問題解決・成長した主人公の明るい未来。",
+      "must_have": [
+        "元気なココの歩く姿",
+        "輝く青いほしのしおり",
+        "笑顔の友だち"
+      ],
+      "camera": "明るい背景の中央から後ろ姿を捉える構図",
+      "image_prompt_api": "happy cream-colored rabbit walking brightly on forest path holding glowing blue charm, smiling friends watching, pastel children’s book style",
+      "image_prompt_sd": "cheerful young rabbit with yellow cloak walking in sunlit forest with glowing blue charm, soft light, clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, dark shadows"
+    }
+  ]
+}

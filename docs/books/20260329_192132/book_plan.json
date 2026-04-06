@@ -1,0 +1,284 @@
+{
+  "title": "ココとうさぎの森のひみつのはなし",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "ココは小さなうさぎで、お友だちと話すのが少しむずかしくなってきています。子どもどうしの気持ちがすれちがって、心がさわがしい様子。",
+    "dominant_story": "お話しできない心のモヤモヤ『さける霧（きり）』がココのまわりを包み、話しかけるのが怖くなってしまう。",
+    "externalized_problem_name": "さける霧",
+    "problem_message": "「だれもわかってくれないよ」「うまく話せないからもうやめよう」",
+    "hidden_values": [
+      "安心できる会話の時間",
+      "相手の好きなことを大事にする心"
+    ],
+    "resources": [
+      "ココのあたたかい気もち",
+      "友だちや森の動物たちの優しさ"
+    ],
+    "small_experiment_metaphor": "青いリボンのおまじない",
+    "new_identity_title": "おはなしのわらべココ"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココの森に、話ができなくなる『さける霧』が漂いはじめる。",
+      "narrative_link": "ココが大切な気持ちを話せないことのはじまり。",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "お母さんうさぎは、霧が怖くて、むりに話しかけないよう気をつける。",
+      "narrative_link": "無理に聞こうとすると、霧がもっと深くなることを感じる。",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反",
+      "story_event": "でもココは、「どうして？」と聞かれて戸惑い、少し遠ざかってしまう。",
+      "narrative_link": "話したいのにうまくできない心のもつれ。",
+      "page": 3
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "『さける霧』はココの心をふさいで、体もふるえ、友だちとも遊べなくなる。",
+      "narrative_link": "心がかたくなり、行動や関係にゆらぎがでる。",
+      "page": 4
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "ふとした会話で、お母さんうさぎは気づく。「好きなことを聞いてあげよう」と思う。",
+      "narrative_link": "霧をとくための小さなヒントが見える。",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意",
+      "story_event": "ココは、怖くても一歩ふみだして、自分の気持ちを伝えたいと心に決める。",
+      "narrative_link": "新しい気持ちで旅立つ。",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練",
+      "story_event": "『さける霧』が現れ、話しかけるたびに声を吸いこもうとする。",
+      "narrative_link": "霧との対話で、あたたかい心の光を頼りにがんばる。",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "青いリボンのおまじないを見つけ、好きなことを話す合図にする。",
+      "narrative_link": "小さな工夫が大きな勇気と変わる。",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決",
+      "story_event": "青いリボンをつけて、霧の中で大切な言葉を伝え、霧を晴らすことに成功。",
+      "narrative_link": "心の問題に立ち向かい、勝利をおさめる。",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消",
+      "story_event": "霧が晴れ、ココは友だちとまた楽しく話せるようになる。新しい自分を誇りに思う。",
+      "narrative_link": "明るい未来へ踏み出す、成長の物語の結び。",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "小さなクリーム色のうさぎ。黄色のフード付きマントと赤いブーツをはいている。やさしい光をもつ10歳の主人公。",
+      "role": "protagonist"
+    },
+    {
+      "name": "おかあさんうさぎ",
+      "description": "ココの親。あたたかい心で見守るが、話せないことに戸惑いもある。",
+      "role": "helper"
+    },
+    {
+      "name": "さける霧",
+      "description": "ココの心に漂う、話を遮り気持ちを分かりにくくする、ふわふわもやもやした霧のような存在。",
+      "role": "problem"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "うさぎのココの森に、『さける霧』という、不思議な霧がふわりとたちこめました。話すことがだんだんむずかしくなってしまいます。",
+      "reader_question": "みんなの森にふんわりした霧、どんなふうに見えるかな？",
+      "illustration_note": "やわらかな光の中、森のたくさんの木の間にうす青いもやもやした霧が漂う様子。手前にココが黄色いマントと赤いブーツでうつむいている。",
+      "scene_summary": "ココの世界が小さな問題に包まれ始める。",
+      "must_have": [
+        "ココの服装の色合い",
+        "青いもやもや霧"
+      ],
+      "camera": "やや斜め正面から、ココの表情がわかる構図",
+      "image_prompt_api": "soft pastel forest with gentle blue mist floating near a small cream-colored rabbit wearing yellow hooded cloak and red boots, soft watercolor style",
+      "image_prompt_sd": "small cream-colored rabbit in yellow hooded cloak and red boots standing in soft pastel forest with gentle blue mist foggy atmosphere morning light warm gentle lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, dark shadows, photorealistic"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ",
+        "δ"
+      ],
+      "text": "おかあさんうさぎは、むりに話しかけるのをやめて、ココの気持ちをそっと見守ります。でも、ココは戸惑い、どこか遠くへさけてしまいました。",
+      "reader_question": "むりに話しかけられるとどんな気もちになるかな？",
+      "illustration_note": "おかあさんうさぎが優しく見守る中、ココは遠くを見つめている。背景に霧が少し深まっている。",
+      "scene_summary": "無理に聞くことはしない決意と、ココの心の遠ざかり。",
+      "must_have": [
+        "おかあさんうさぎの優しい表情",
+        "ココの距離感の表現"
+      ],
+      "camera": "横からココとおかあさんがそれぞれ向いている構図",
+      "image_prompt_api": "gentle mother rabbit watching a small cream-colored rabbit in yellow cloak standing apart in soft pastel misty forest, watercolor children's book style",
+      "image_prompt_sd": "warm light gentle watercolor soft pastel forest mother rabbit watching small rabbit standing apart looking distant, friendly gentle atmosphere",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, photorealistic, harsh shadows"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "『さける霧』はココの心をふさいでしまい、体がブルブルふるえたり、友だちと遊びたくなくなりました。ココはとても寂しくなりました。",
+      "reader_question": "心がふさがると、どんな体のうごきになるかな？",
+      "illustration_note": "ココが小さく身をすくめて震えている様子。霧は濃くなり、周囲の友だちも心配そうに見つめる。",
+      "scene_summary": "霧がココの身体と心をむしばんでいる。",
+      "must_have": [
+        "ココの震える姿勢",
+        "友だちの優しい顔"
+      ],
+      "camera": "少し斜め上から、ココの震えが伝わる角度",
+      "image_prompt_api": "small cream-colored rabbit trembling in soft pastel forest surrounded by thickening blue mist, worried animal friends watching, warm watercolor style",
+      "image_prompt_sd": "soft watercolor small rabbit trembling surrounded by gentle blue mist worried forest animal friends pastel colors clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, dark or aggressive mood, photorealistic"
+    },
+    {
+      "page": 4,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "ある日、おかあさんうさぎは思いました。「ココの好きなことを聞いてあげよう」それが、霧を晴らす小さなヒントかもしれません。",
+      "reader_question": "みんなの好きなことは何かな？",
+      "illustration_note": "おかあさんうさぎがにっこり笑い、ココが興味深そうに見ている。背景に明るい森の日差しが差し込み始める。",
+      "scene_summary": "おかあさんの気づきと優しい言葉のはじまり。",
+      "must_have": [
+        "おかあさんの笑顔",
+        "明るくなり始めた森"
+      ],
+      "camera": "正面からの二人の顔が見える近い構図",
+      "image_prompt_api": "smiling mother rabbit talking gently to small cream-colored rabbit in pastel sunlit forest, warm children's book style watercolor",
+      "image_prompt_sd": "warm light watercolor smiling mother rabbit and small rabbit gently talking sunny pastel forest clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, photorealistic, harsh shadows"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは心の中で決めました。「こわくても、少しずつ話してみよう」そう思って、ゆっくり森の小道を歩きはじめました。",
+      "reader_question": "勇気を出して一歩ふむとどんな気もちになるかな？",
+      "illustration_note": "ココが黄色いマントを揺らしながら葉っぱの道を一歩ずつ進む。背中には小さな青いリボンが光っている。",
+      "scene_summary": "ココの決意と旅の始まり。",
+      "must_have": [
+        "ココの服の動き",
+        "小さな青いリボンの輝き"
+      ],
+      "camera": "後ろから斜めの構図で歩みが伝わる",
+      "image_prompt_api": "small cream-colored rabbit walking carefully on leaf path in pastel forest wearing yellow hooded cloak with small glowing blue ribbon, soft watercolor style",
+      "image_prompt_sd": "childlike watercolor small rabbit walking on leafy path with yellow cloak glowing blue ribbon pastel colors gentle lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, photorealistic, harsh shadows"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "でも『さける霧』は、話しかけるたびに声を吸いこもうとしました。ココは、好きなサッカーの話を思い出し、少しだけ勇気がわいてきました。",
+      "reader_question": "好きなことを思い出すとどんな気もちになるかな？",
+      "illustration_note": "濃い霧がココに迫る中、ココが目を輝かせてサッカーボールを抱えている姿。",
+      "scene_summary": "霧の試練と心の光の発見。",
+      "must_have": [
+        "濃い霧の表現",
+        "サッカーボールを抱えるココ"
+      ],
+      "camera": "ココのアップで決意が見える構図",
+      "image_prompt_api": "small cream-colored rabbit holding soccer ball with determined eyes surrounded by thick blue mist in pastel forest, warm children's book watercolor",
+      "image_prompt_sd": "childlike watercolor small rabbit holding soccer ball determined surrounded by blue mist soft pastel colors",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, photorealistic, dark mood"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "そこで、ココは青いリボンのおまじないを作りました。好きなことを話すとき、このリボンを見せると勇気がふえて、話しやすくなるのです。",
+      "reader_question": "おまじないがあったら何を話したい？",
+      "illustration_note": "ココが青いリボンをしっかり握り、ほほえんでいる。背景には柔らかい光が差しこむ森の空間。",
+      "scene_summary": "勇気をくれるおまじないとの出会い。",
+      "must_have": [
+        "青いリボンの鮮やかな色",
+        "ココの笑顔"
+      ],
+      "camera": "正面からリボンとココがはっきり見える構図",
+      "image_prompt_api": "small cream-colored rabbit smiling holding bright blue ribbon in soft pastel sunlit forest, watercolor children's book style",
+      "image_prompt_sd": "bright watercolor small rabbit holding blue ribbon smiling pastel colors warm light clean outlines",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, photorealistic, harsh shadows"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "青いリボンをつけて、ココは霧の中で大切な言葉をそっと伝えました。すると霧はすこしずつ晴れて、ココは『おはなしのわらべ』と呼ばれるようになりました。",
+      "reader_question": "大切な言葉はどんなことばかな？",
+      "illustration_note": "霧が晴れていく中、ココが青いリボンを胸にあてて笑顔。周りに友だちが集まりはじめる明るい森。",
+      "scene_summary": "霧との勝負に勝ち、新しい自分のはじまり。",
+      "must_have": [
+        "霧の晴れ間",
+        "ココの笑顔と青いリボン"
+      ],
+      "camera": "明るい正面アップと少し広がる森",
+      "image_prompt_api": "small cream-colored rabbit with blue ribbon glowing standing in clearing pastel forest with fading blue mist, warm watercolor children's book style",
+      "image_prompt_sd": "soft watercolor bright pastel forest clearing with small rabbit smiling blue ribbon friends gathering gentle light",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, photorealistic, dark shadows"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "K",
+        "↓",
+        "Q",
+        "T",
+        "W"
+      ],
+      "text": "霧が消えた森で、ココは友だちと元気におしゃべりしました。これからは、好きなことを分かち合う『おはなしのわらべココ』として毎日が輝きます。",
+      "reader_question": "みんなはどんな『おはなしのわらべ』になりたい？",
+      "illustration_note": "晴れ渡った森の広場でココが友だちとうれしそうに話している。あたたかい日の光が降りそそぐ最高の1日。",
+      "scene_summary": "明るい未来と新しい自分のしるし。",
+      "must_have": [
+        "ココの黄色いマント",
+        "友だちのにこやかな姿"
+      ],
+      "camera": "広い空間を背景にした集合の笑顔の構図",
+      "image_prompt_api": "happy small cream-colored rabbit with yellow cloak chatting with friends in sunny pastel forest clearing, warm watercolor style",
+      "image_prompt_sd": "watercolor happy small rabbit chatting with forest friends sunny pastel colors clear outlines warm lighting",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character, photorealistic, dark or sad mood"
+    }
+  ]
+}

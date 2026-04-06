@@ -1,0 +1,291 @@
+{
+  "title": "ココとうらないのこえ",
+  "target_age": "10",
+  "page_count": 10,
+  "style_bible": "温かい絵本の挿絵。やわらかい水彩、やさしいパステル、クリーンな輪郭線、安心感のある光、子ども向け、過度に写実的にしない。",
+  "story_mode": "animal_fantasy_narrative_propp",
+  "source_summary": {
+    "situation": "小さなうさぎのココは、最近家族の中で少し距離を感じていて、相手の気持ちがわからずに困っている。",
+    "dominant_story": "ココは相手の気持ちを察そうとして顔色ばかりを伺い、自分も話せなくなりそうになる。そんな自分に戸惑う。",
+    "externalized_problem_name": "ききたがりモンスター",
+    "problem_message": "もっと相手の話を聞かなきゃ、ちゃんと気持ちを読み取らなきゃ！そうしなければ心が離れてしまうよ。",
+    "hidden_values": [
+      "親子のやさしい繋がり",
+      "互いを認め合う自由な気持ち"
+    ],
+    "resources": [
+      "好きなことの話で笑い合った時間",
+      "小さな合図やおまじないのような心のしるし"
+    ],
+    "small_experiment_metaphor": "ちいさな青い鈴の音",
+    "new_identity_title": "みみをすますうさぎ"
+  },
+  "propp_map": [
+    {
+      "symbol": "β",
+      "function_name": "欠如",
+      "story_event": "ココは家族との心が通じあう時間が減って、さみしさを感じていました。",
+      "narrative_link": "ココが心の距離を感じ、問題の気配が生まれる。",
+      "page": 1
+    },
+    {
+      "symbol": "γ",
+      "function_name": "禁止",
+      "story_event": "ココは相手の気持ちを知ろうと「ききたがりモンスター」に耳を奪われてしまいます。",
+      "narrative_link": "問題が行動を制限してしまう場面。",
+      "page": 2
+    },
+    {
+      "symbol": "δ",
+      "function_name": "違反・巻き込まれ",
+      "story_event": "問いかけが増えるほど、相手は話さなくなり、ココも不安が大きくなっていきます。",
+      "narrative_link": "問題が悪化し、関係がぎくしゃくする。",
+      "page": 2
+    },
+    {
+      "symbol": "A",
+      "function_name": "加害",
+      "story_event": "『ききたがりモンスター』のささやきで、ココはつい顔色を伺うようになりました。",
+      "narrative_link": "問題の影響が具体化し始める。",
+      "page": 3
+    },
+    {
+      "symbol": "B",
+      "function_name": "仲介",
+      "story_event": "ココは「好きなことの話」を思い出し、それが小さな灯りのように感じられました。",
+      "narrative_link": "問題への気づきと支えの登場。",
+      "page": 5
+    },
+    {
+      "symbol": "C",
+      "function_name": "決意・出発",
+      "story_event": "ココは『ききたがりモンスター』に立ち向かう決心をして、一歩外の世界へ出かけました。",
+      "narrative_link": "物語の主人公が問題に立ち向かう。",
+      "page": 6
+    },
+    {
+      "symbol": "D",
+      "function_name": "試練",
+      "story_event": "『ききたがりモンスター』の声に戸惑いながらも、ココは青い鈴を鳴らしてみます。",
+      "narrative_link": "試練の中で資源を試す場面。",
+      "page": 7
+    },
+    {
+      "symbol": "F",
+      "function_name": "魔法の手段獲得",
+      "story_event": "青い鈴のおまじないが、ココと相手をつなぐ小さな秘密の合図になりました。",
+      "narrative_link": "新しい対処法の獲得。",
+      "page": 8
+    },
+    {
+      "symbol": "H",
+      "function_name": "対決・I 勝利",
+      "story_event": "ココは勇気を出して『ききたがりモンスター』にさよならを告げ、心を開くことができました。",
+      "narrative_link": "問題に勝利し、新たな自己を得る。",
+      "page": 9
+    },
+    {
+      "symbol": "K",
+      "function_name": "解消・帰還・Q→T→W",
+      "story_event": "ココは『みみをすますうさぎ』となって、これからも家族のやさしい声に耳を澄ませるのでした。",
+      "narrative_link": "物語のまとめと希望に満ちた未来。",
+      "page": 10
+    }
+  ],
+  "characters": [
+    {
+      "name": "ココ",
+      "description": "10歳くらいの小さなうさぎ。クリーム色のやわらかな毛、長いピンク耳、まんまるのやさしい目。黄色いフード付きマント、茶色の短パン、小さな赤いブーツ。青い小さな鞄を身につけている。",
+      "role": "protagonist"
+    },
+    {
+      "name": "ききたがりモンスター",
+      "description": "ココの心の中にいる、相手の気持ちを全部知ろうとしてしまう大きな影のような生き物。ささやく声はいつも『ちゃんと聞かなきゃ』と言う。",
+      "role": "problem"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "propp_functions": [
+        "β"
+      ],
+      "text": "小さなうさぎのココは、家族と心が通じる時間がだんだん少なくなり、さみしくなりました。なんだか心にぽっかり穴が開いたようです。",
+      "reader_question": "あなたは誰かと仲良くしたいなと思うとき、どんな気持ちになる？",
+      "illustration_note": "クリーム色のうさぎのココが、静かな森の村で少しさみしそうに遠くを見る様子。柔らかい光が差している。",
+      "scene_summary": "ココの日常、心の欠けた様子が描かれる。",
+      "must_have": [
+        "クリーム色のうさぎココ",
+        "森の村の風景"
+      ],
+      "camera": "中距離、ココの表情が見える角度",
+      "image_prompt_api": "small cream-colored rabbit in a gentle forest village, looking quietly and a little lonely, soft watercolor style, warm pastel colors, children's picture book illustration",
+      "image_prompt_sd": "small cream-colored rabbit with yellow hooded cloak and red boots looking distant in a soft pastel forest village, warm gentle lighting, child-friendly, watercolor effect",
+      "negative_prompt_sd": "low quality, extra limbs, inconsistent character design, harsh lighting"
+    },
+    {
+      "page": 2,
+      "propp_functions": [
+        "γ",
+        "δ"
+      ],
+      "text": "でもココは、『ききたがりモンスター』に耳を奪われて、つい相手の気持ちを探りすぎてしまいます。相手はだんだん話さなくなりました。",
+      "reader_question": "誰かの気持ちを知りたいとき、どうしても心配になることはある？",
+      "illustration_note": "影のようなモンスターがココの耳元でささやき、ココが少し不安そうに耳をすませる。",
+      "scene_summary": "ココの心に問題の影が生まれる。",
+      "must_have": [
+        "ききたがりモンスター",
+        "ココの不安な表情"
+      ],
+      "camera": "ややクローズアップ、耳元を中心に",
+      "image_prompt_api": "small cream-colored rabbit with yellow cloak, shadowy monster whispering into rabbit's ear in gentle forest village, soft watercolor style, warm pastel colors",
+      "image_prompt_sd": "small rabbit with anxious face and shadow monster whispering near ear, soft pastel forest background, children's book illustration",
+      "negative_prompt_sd": "poor anatomy, extra limbs, inconsistent lighting"
+    },
+    {
+      "page": 3,
+      "propp_functions": [
+        "A"
+      ],
+      "text": "『ききたがりモンスター』のささやきで、ココはつい顔色をうかがい、問いかけが増えました。でもそれが相手を遠ざけてしまったのです。",
+      "reader_question": "あなたは、どうしたらもっとお互いにわかりあえると思う？",
+      "illustration_note": "ココが顔色を伺っている様子と、相手の影が少し遠ざかる感じを表現。",
+      "scene_summary": "問題の具体的な影響が出始める。",
+      "must_have": [
+        "ココの不安な姿",
+        "相手の距離感"
+      ],
+      "camera": "中距離、二匹の距離を見せる",
+      "image_prompt_api": "small rabbit looking worried, shadowy distance figure in forest village, soft watercolor pastel colors, children's book style",
+      "image_prompt_sd": "small rabbit with yellow cloak looking anxious, distant figure fading away in pastel forest, warm lighting",
+      "negative_prompt_sd": "blurry, extra limbs, poorly drawn faces"
+    },
+    {
+      "page": 4,
+      "propp_functions": [],
+      "text": "ココの心はざわざわして、胸がずきずきしました。歩くときも落ち着かず、しばらくは好きな遊びもできませんでした。",
+      "reader_question": "気持ちがざわざわするとき、あなたはどうする？",
+      "illustration_note": "ココが心配そうに胸を押さえ、少し後ずさりするシーン。柔らかい森の中。",
+      "scene_summary": "心と体の変化が描かれる。",
+      "must_have": [
+        "ココの不安な姿",
+        "自然の森"
+      ],
+      "camera": "中距離、ココ中心",
+      "image_prompt_api": "small cream-colored rabbit looking worried, holding chest in soft forest village, gentle watercolor pastel illustration",
+      "image_prompt_sd": "worried small rabbit holding chest, soft pastel forest background, warm light",
+      "negative_prompt_sd": "anachronistic, extra limbs, low quality"
+    },
+    {
+      "page": 5,
+      "propp_functions": [
+        "B"
+      ],
+      "text": "ある日、ココは思い出しました。相手が好きな話題に少し触れたとき、小さな笑い声が聞こえたことを。そこにきらきらした灯りがありました。",
+      "reader_question": "あなたが仲良くなるとき、どんなことがうれしい？",
+      "illustration_note": "ココが明るい表情で、楽しげに話す小さな動物たちと触れ合う様子。",
+      "scene_summary": "支えとなる記憶と明るい希望が生まれる。",
+      "must_have": [
+        "ココの笑顔",
+        "小さな動物たちとの交流"
+      ],
+      "camera": "近距離、ココの表情アップ",
+      "image_prompt_api": "small rabbit smiling and talking with other small animals in warm forest village, soft watercolor pastel style",
+      "image_prompt_sd": "happy small rabbit with yellow cloak talking with friends, warm pastel colors, gentle lighting",
+      "negative_prompt_sd": "bad anatomy, inconsistent lighting, extra limbs"
+    },
+    {
+      "page": 6,
+      "propp_functions": [
+        "C",
+        "↑"
+      ],
+      "text": "ココは『ききたがりモンスター』に立ち向かう決心をしました。外の世界へ一歩踏み出し、小さな青い鈴を手にしました。",
+      "reader_question": "あなたが勇気を出すとき、どんなことを思う？",
+      "illustration_note": "ココが決意を胸に、青い鈴をしっかり握りしめて歩き始める姿。",
+      "scene_summary": "主人公が問題に向かう決意を固める。",
+      "must_have": [
+        "ココの決意ある表情",
+        "青い鈴"
+      ],
+      "camera": "中距離、鈴が見える手元フォーカス",
+      "image_prompt_api": "small cream-colored rabbit holding small blue bell, walking determinedly in forest village, soft watercolor pastel illustration",
+      "image_prompt_sd": "determined small rabbit with yellow cloak holding blue bell walking in gentle forest, warm light",
+      "negative_prompt_sd": "poor character consistency, extra limbs, low quality"
+    },
+    {
+      "page": 7,
+      "propp_functions": [
+        "D",
+        "E"
+      ],
+      "text": "道の途中、『ききたがりモンスター』の声がまた聞こえたけど、ココは青い鈴を鳴らしました。その響きは、小さな明かりのようでした。",
+      "reader_question": "困ったとき、あなたはどんな合図やおまじないがほしい？",
+      "illustration_note": "暗い森の中、ココが青い鈴を鳴らし、鈴の光がほんのり周りを照らす様子。",
+      "scene_summary": "試練の中、ココが資源で対応する。",
+      "must_have": [
+        "ココの勇気",
+        "青い鈴の光"
+      ],
+      "camera": "クローズアップ、鈴とココの手元中心",
+      "image_prompt_api": "small rabbit ringing small blue bell, dim forest background, warm light from bell, watercolor pastel style",
+      "image_prompt_sd": "small rabbit with yellow cloak ringing blue bell glowing softly in dark forest, child-friendly illustration",
+      "negative_prompt_sd": "low resolution, extra limbs, inconsistent lighting"
+    },
+    {
+      "page": 8,
+      "propp_functions": [
+        "F"
+      ],
+      "text": "青い鈴のおまじないは、ココと相手をつなぐ秘密の合図になりました。少しずつ、心が近づいていきます。",
+      "reader_question": "あなたは誰かと心をつなぐために、どんな秘密の合図がほしい？",
+      "illustration_note": "ココと相手の動物が、お互いに少しずつ近づきながら笑顔で鈴の音を聞くシーン。",
+      "scene_summary": "新しいつながりの希望が生まれる。",
+      "must_have": [
+        "ココと相手の動物",
+        "青い鈴の光"
+      ],
+      "camera": "中距離、二匹の笑顔フォーカス",
+      "image_prompt_api": "two small animals smiling and getting closer while blue bell rings, warm forest village, watercolor pastel style",
+      "image_prompt_sd": "small cream-colored rabbit and other animal smiling with blue bell glow, warm gentle light",
+      "negative_prompt_sd": "inconsistent character design, extra limbs, low quality"
+    },
+    {
+      "page": 9,
+      "propp_functions": [
+        "H",
+        "I"
+      ],
+      "text": "ココは勇気を出して、『ききたがりモンスター』にさよならを告げました。そして、新しい自分、『みみをすますうさぎ』に生まれ変わったのです。",
+      "reader_question": "あなたが新しくなったと感じたとき、どんな気持ちになる？",
+      "illustration_note": "ココが晴れやかな表情で、影のモンスターから離れて歩く姿。",
+      "scene_summary": "問題を乗り越え、新しい自己が誕生する。",
+      "must_have": [
+        "ココの明るい表情",
+        "消える影のモンスター"
+      ],
+      "camera": "中距離、前向きなココフォーカス",
+      "image_prompt_api": "small cream-colored rabbit walking joyfully away from shadowy monster in forest village, soft watercolor pastel colors",
+      "image_prompt_sd": "happy small rabbit with yellow cloak leaving shadow monster behind in warm pastel forest",
+      "negative_prompt_sd": "poor anatomy, extra limbs, low quality"
+    },
+    {
+      "page": 10,
+      "propp_functions": [
+        "K"
+      ],
+      "text": "これからもココは、『みみをすますうさぎ』として、家族のやさしい声に耳を澄ませて歩いていきます。どんな時もあたたかい未来が待っています。",
+      "reader_question": "あなたも誰かの声に耳をすませて、優しい未来を作っていけるね。",
+      "illustration_note": "夕陽が差す森の村で、ココが穏やかな笑顔でゆっくり歩くシーン。温かい光に包まれている。",
+      "scene_summary": "物語の終了と希望に満ちた未来描写。",
+      "must_have": [
+        "ココの優しい笑顔",
+        "夕陽と森の村"
+      ],
+      "camera": "広角、夕陽を背に歩くココ",
+      "image_prompt_api": "small cream-colored rabbit walking peacefully in warm sunset forest village, soft watercolor pastel colors, children's picture book style",
+      "image_prompt_sd": "small rabbit with yellow cloak walking at sunset in pastel forest village, warm gentle lighting",
+      "negative_prompt_sd": "extra limbs, poor detail, inconsistent lighting"
+    }
+  ]
+}
